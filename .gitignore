@@ -67,3 +67,8 @@ node_modules/
 dashboard/out/
 *.tsbuildinfo
 *.log
+
+# Heavy, non-essential images (kept locally only)
+data/legacy/creatives/
+data/outputs/dashboard_inspection/
+data/quality/staging/
