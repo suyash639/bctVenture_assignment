@@ -1,0 +1,973 @@
+{
+ "n_records": 50,
+ "notes": [],
+ "entries": [
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 2,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=2,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 2,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 22,
+     "1": 28
+    },
+    "min_cluster_size": 22,
+    "max_cluster_size": 28,
+    "largest_cluster_share": 0.56,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.06308,
+    "davies_bouldin": 3.244729,
+    "calinski_harabasz": 4.409782,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.5548,
+    "subsample_ari": 0.6841,
+    "neighbour_ari": 0.6549
+   }
+  },
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 3,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=3,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 3,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 21,
+     "1": 18,
+     "2": 11
+    },
+    "min_cluster_size": 11,
+    "max_cluster_size": 21,
+    "largest_cluster_share": 0.42,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.051348,
+    "davies_bouldin": 3.177615,
+    "calinski_harabasz": 3.557672,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.3211,
+    "subsample_ari": 0.5287,
+    "neighbour_ari": 0.5354
+   }
+  },
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 4,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=4,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 4,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 7,
+     "1": 20,
+     "2": 8,
+     "3": 15
+    },
+    "min_cluster_size": 7,
+    "max_cluster_size": 20,
+    "largest_cluster_share": 0.4,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.066029,
+    "davies_bouldin": 2.647239,
+    "calinski_harabasz": 3.318677,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.4559,
+    "subsample_ari": 0.517,
+    "neighbour_ari": 0.4044
+   }
+  },
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 5,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=5,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 5,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 11,
+     "1": 8,
+     "2": 10,
+     "3": 9,
+     "4": 12
+    },
+    "min_cluster_size": 8,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.061679,
+    "davies_bouldin": 2.638419,
+    "calinski_harabasz": 3.227601,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.5076,
+    "subsample_ari": 0.4758,
+    "neighbour_ari": 0.4671
+   }
+  },
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 6,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=6,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 6,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 4,
+     "1": 4,
+     "2": 13,
+     "3": 10,
+     "4": 11,
+     "5": 8
+    },
+    "min_cluster_size": 4,
+    "max_cluster_size": 13,
+    "largest_cluster_share": 0.26,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.066761,
+    "davies_bouldin": 2.396367,
+    "calinski_harabasz": 2.975306,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.502,
+    "subsample_ari": 0.5499,
+    "neighbour_ari": 0.6506
+   }
+  },
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 7,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=7,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 7,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 1,
+     "1": 4,
+     "2": 8,
+     "3": 12,
+     "4": 7,
+     "5": 14,
+     "6": 4
+    },
+    "min_cluster_size": 1,
+    "max_cluster_size": 14,
+    "largest_cluster_share": 0.28,
+    "n_singleton_clusters": 1,
+    "silhouette": 0.071582,
+    "davies_bouldin": 2.031454,
+    "calinski_harabasz": 2.929329,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.5248,
+    "subsample_ari": 0.7065,
+    "neighbour_ari": 0.7082
+   }
+  },
+  {
+   "config": {
+    "algorithm": "kmeans",
+    "params": {
+     "n_clusters": 8,
+     "n_init": 10
+    },
+    "seed": 0,
+    "config_id": "kmeans|n_clusters=8,n_init=10",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 8,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 6,
+     "1": 12,
+     "2": 5,
+     "3": 4,
+     "4": 9,
+     "5": 3,
+     "6": 7,
+     "7": 4
+    },
+    "min_cluster_size": 3,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.06813,
+    "davies_bouldin": 2.208794,
+    "calinski_harabasz": 2.813223,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": 0.5319,
+    "subsample_ari": 0.541,
+    "neighbour_ari": 0.6563
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 2,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=2",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 2,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 40,
+     "1": 10
+    },
+    "min_cluster_size": 10,
+    "max_cluster_size": 40,
+    "largest_cluster_share": 0.8,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.074242,
+    "davies_bouldin": 2.63075,
+    "calinski_harabasz": 4.100662,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7581,
+    "neighbour_ari": 0.4873
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 3,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=3",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 3,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 28,
+     "1": 10,
+     "2": 12
+    },
+    "min_cluster_size": 10,
+    "max_cluster_size": 28,
+    "largest_cluster_share": 0.56,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.05855,
+    "davies_bouldin": 2.828731,
+    "calinski_harabasz": 3.940134,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.8165,
+    "neighbour_ari": 0.6119
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 4,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=4",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 4,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 21,
+     "1": 10,
+     "2": 12,
+     "3": 7
+    },
+    "min_cluster_size": 7,
+    "max_cluster_size": 21,
+    "largest_cluster_share": 0.42,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.072381,
+    "davies_bouldin": 2.703117,
+    "calinski_harabasz": 3.715828,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.8406,
+    "neighbour_ari": 0.7948
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 5,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=5",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 5,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 17,
+     "1": 10,
+     "2": 12,
+     "3": 7,
+     "4": 4
+    },
+    "min_cluster_size": 4,
+    "max_cluster_size": 17,
+    "largest_cluster_share": 0.34,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.083554,
+    "davies_bouldin": 2.561354,
+    "calinski_harabasz": 3.510621,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.8408,
+    "neighbour_ari": 0.8332
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 6,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=6",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 6,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 10,
+     "1": 9,
+     "2": 12,
+     "3": 7,
+     "4": 4,
+     "5": 8
+    },
+    "min_cluster_size": 4,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.088618,
+    "davies_bouldin": 2.470575,
+    "calinski_harabasz": 3.275876,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7592,
+    "neighbour_ari": 0.8822
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 7,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=7",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 7,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 9,
+     "1": 8,
+     "2": 12,
+     "3": 7,
+     "4": 4,
+     "5": 8,
+     "6": 2
+    },
+    "min_cluster_size": 2,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.095166,
+    "davies_bouldin": 2.293856,
+    "calinski_harabasz": 3.129636,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.821,
+    "neighbour_ari": 0.9526
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 8,
+     "linkage": "ward"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=ward,n_clusters=8",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 8,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 12,
+     "1": 8,
+     "2": 8,
+     "3": 7,
+     "4": 4,
+     "5": 7,
+     "6": 2,
+     "7": 2
+    },
+    "min_cluster_size": 2,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.102496,
+    "davies_bouldin": 2.149331,
+    "calinski_harabasz": 3.014307,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7851,
+    "neighbour_ari": 0.9542
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 2,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=2",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 2,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 28,
+     "1": 22
+    },
+    "min_cluster_size": 22,
+    "max_cluster_size": 28,
+    "largest_cluster_share": 0.56,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.113868,
+    "davies_bouldin": 3.360579,
+    "calinski_harabasz": 4.103746,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.6714,
+    "neighbour_ari": 0.6794
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 3,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=3",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 3,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 22,
+     "1": 14,
+     "2": 14
+    },
+    "min_cluster_size": 14,
+    "max_cluster_size": 22,
+    "largest_cluster_share": 0.44,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.119356,
+    "davies_bouldin": 3.066424,
+    "calinski_harabasz": 3.747557,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7416,
+    "neighbour_ari": 0.7217
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 4,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=4",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 4,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 10,
+     "1": 14,
+     "2": 14,
+     "3": 12
+    },
+    "min_cluster_size": 10,
+    "max_cluster_size": 14,
+    "largest_cluster_share": 0.28,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.138078,
+    "davies_bouldin": 2.790159,
+    "calinski_harabasz": 3.57597,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7179,
+    "neighbour_ari": 0.8578
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 5,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=5",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 5,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 14,
+     "1": 3,
+     "2": 14,
+     "3": 12,
+     "4": 7
+    },
+    "min_cluster_size": 3,
+    "max_cluster_size": 14,
+    "largest_cluster_share": 0.28,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.133388,
+    "davies_bouldin": 2.567231,
+    "calinski_harabasz": 3.170127,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7647,
+    "neighbour_ari": 0.9153
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 6,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=6",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 6,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 14,
+     "1": 3,
+     "2": 8,
+     "3": 12,
+     "4": 7,
+     "5": 6
+    },
+    "min_cluster_size": 3,
+    "max_cluster_size": 14,
+    "largest_cluster_share": 0.28,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.143839,
+    "davies_bouldin": 2.279857,
+    "calinski_harabasz": 3.021681,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.8382,
+    "neighbour_ari": 0.8808
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 7,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=7",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 7,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 8,
+     "1": 3,
+     "2": 4,
+     "3": 12,
+     "4": 7,
+     "5": 6,
+     "6": 10
+    },
+    "min_cluster_size": 3,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.15036,
+    "davies_bouldin": 2.173783,
+    "calinski_harabasz": 2.97778,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.8483,
+    "neighbour_ari": 0.9148
+   }
+  },
+  {
+   "config": {
+    "algorithm": "agglomerative",
+    "params": {
+     "n_clusters": 8,
+     "linkage": "average",
+     "metric": "cosine"
+    },
+    "seed": 0,
+    "config_id": "agglomerative|linkage=average,metric=cosine,n_clusters=8",
+    "metric": "cosine"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 8,
+    "n_noise": 0,
+    "noise_share": 0.0,
+    "cluster_sizes": {
+     "0": 4,
+     "1": 3,
+     "2": 6,
+     "3": 12,
+     "4": 7,
+     "5": 4,
+     "6": 10,
+     "7": 4
+    },
+    "min_cluster_size": 3,
+    "max_cluster_size": 12,
+    "largest_cluster_share": 0.24,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.168573,
+    "davies_bouldin": 2.031468,
+    "calinski_harabasz": 2.944573,
+    "silhouette_metric": "cosine"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.8988,
+    "neighbour_ari": 0.9469
+   }
+  },
+  {
+   "config": {
+    "algorithm": "hdbscan",
+    "params": {
+     "min_cluster_size": 3
+    },
+    "seed": 0,
+    "config_id": "hdbscan|min_cluster_size=3",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 4,
+    "n_noise": 21,
+    "noise_share": 0.42,
+    "cluster_sizes": {
+     "0": 7,
+     "1": 7,
+     "2": 4,
+     "3": 11
+    },
+    "min_cluster_size": 4,
+    "max_cluster_size": 11,
+    "largest_cluster_share": 0.22,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.136855,
+    "davies_bouldin": 1.845041,
+    "calinski_harabasz": 4.144793,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7919,
+    "neighbour_ari": null
+   }
+  },
+  {
+   "config": {
+    "algorithm": "hdbscan",
+    "params": {
+     "min_cluster_size": 4
+    },
+    "seed": 0,
+    "config_id": "hdbscan|min_cluster_size=4",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 3,
+    "n_noise": 22,
+    "noise_share": 0.44,
+    "cluster_sizes": {
+     "0": 7,
+     "1": 7,
+     "2": 14
+    },
+    "min_cluster_size": 7,
+    "max_cluster_size": 14,
+    "largest_cluster_share": 0.28,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.145331,
+    "davies_bouldin": 1.996841,
+    "calinski_harabasz": 4.474051,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.545,
+    "neighbour_ari": null
+   }
+  },
+  {
+   "config": {
+    "algorithm": "hdbscan",
+    "params": {
+     "min_cluster_size": 5
+    },
+    "seed": 0,
+    "config_id": "hdbscan|min_cluster_size=5",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 2,
+    "n_noise": 23,
+    "noise_share": 0.46,
+    "cluster_sizes": {
+     "0": 22,
+     "1": 5
+    },
+    "min_cluster_size": 5,
+    "max_cluster_size": 22,
+    "largest_cluster_share": 0.44,
+    "n_singleton_clusters": 0,
+    "silhouette": 0.12429,
+    "davies_bouldin": 1.742821,
+    "calinski_harabasz": 4.047689,
+    "silhouette_metric": "euclidean"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.5052,
+    "neighbour_ari": null
+   }
+  },
+  {
+   "config": {
+    "algorithm": "hdbscan",
+    "params": {
+     "min_cluster_size": 6
+    },
+    "seed": 0,
+    "config_id": "hdbscan|min_cluster_size=6",
+    "metric": "euclidean"
+   },
+   "error": null,
+   "metrics": {
+    "n_records": 50,
+    "n_clusters": 0,
+    "n_noise": 50,
+    "noise_share": 1.0,
+    "cluster_sizes": {},
+    "min_cluster_size": 0,
+    "max_cluster_size": 0,
+    "largest_cluster_share": 0.0,
+    "n_singleton_clusters": 0,
+    "silhouette": null,
+    "davies_bouldin": null,
+    "calinski_harabasz": null,
+    "silhouette_metric": "euclidean",
+    "metrics_undefined_reason": "0 cluster(s) among 0 non-noise points: internal metrics need 2 <= k <= n-1"
+   },
+   "stability": {
+    "seed_ari": null,
+    "subsample_ari": 0.7,
+    "neighbour_ari": null
+   }
+  }
+ ]
+}

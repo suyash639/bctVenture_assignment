@@ -1,0 +1,191 @@
+{
+ "provisional": false,
+ "config_path": "config/analysis_pipeline.json",
+ "config_sha256": "206522d9cb9ecdbc6706b85266964a6392fa867473629a231c3099c881c9e509",
+ "config": {
+  "_comment": "Config for `python -m src.pipeline.run`. Paths are relative to the repo root.",
+  "inputs": {
+   "dataset_csv": "data/processed/validated_dataset.csv",
+   "freeze_marker": "data/processed/DATASET_FROZEN.json",
+   "features_json": "data/processed/visual_features.json",
+   "embeddings_npy": "data/processed/clip_embeddings.npy",
+   "require": {
+    "final_status": "VERIFIED"
+   }
+  },
+  "extraction": {
+   "enabled": false,
+   "device": "cpu",
+   "batch_size": 16
+  },
+  "features": {
+   "blocks": {
+    "clip": 1.0,
+    "numeric": 0.0,
+    "colour": 0.0,
+    "layout": 0.0,
+    "text": 0.0
+   },
+   "clip_pca_components": null,
+   "scaler": "standard",
+   "impute": "median",
+   "seed": 0
+  },
+  "feature_variants": {
+   "fused": {
+    "blocks": {
+     "clip": 1.0,
+     "numeric": 0.35,
+     "colour": 0.35,
+     "layout": 0.25,
+     "text": 0.0
+    },
+    "clip_pca_components": null,
+    "scaler": "standard",
+    "impute": "median",
+    "seed": 0
+   }
+  },
+  "clustering": {
+   "grid": "default",
+   "stability_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "analytics": {
+   "representatives_per_cluster": 4
+  },
+  "intelligence": {
+   "min_n": 3
+  },
+  "outputs": {
+   "root": "data/outputs",
+   "report": "reports/analysis_run_report.md"
+  },
+  "seed": 0
+ },
+ "inputs": {
+  "dataset_csv": {
+   "path": "data/processed/validated_dataset.csv",
+   "sha256": "398567d57f2e2c47e64b28806cabe041e2d9758b6769b194ea98685f6479aa7f"
+  },
+  "freeze_marker": {
+   "path": "data/processed/DATASET_FROZEN.json",
+   "sha256": "134cf7098f70b60d4556e709f3b92650dd4ecb222526fcf0c66b5a8697cdd095"
+  },
+  "features_json": {
+   "path": "data/processed/visual_features.json",
+   "sha256": "84878afa199bc66bab974b07136bd2cc9213664ed30cdccb2611ffdc4bdc0d1f"
+  },
+  "embeddings_npy": {
+   "path": "data/processed/clip_embeddings.npy",
+   "sha256": "e7dfef383fe93d5a3cd661b6a56726ce8337cf946e48ee4e8cca42600734e2cf"
+  }
+ },
+ "summary": {
+  "dataset": {
+   "path": "data/processed/validated_dataset.csv",
+   "sha256": "398567d57f2e2c47e64b28806cabe041e2d9758b6769b194ea98685f6479aa7f",
+   "n_rows": 71,
+   "n_selected": 50,
+   "require": {
+    "final_status": "VERIFIED"
+   },
+   "per_brand": {
+    "Himalaya Wellness": 10,
+    "Kapiva": 10,
+    "Mamaearth": 10,
+    "MuscleBlaze": 10,
+    "OZiva": 10
+   }
+  },
+  "frozen": true,
+  "features_validation": {
+   "passed": true,
+   "n_records": 50
+  },
+  "features": {
+   "clip": {
+    "n_rows": 50,
+    "n_dims": 512,
+    "excluded": []
+   },
+   "fused": {
+    "n_rows": 50,
+    "n_dims": 551,
+    "excluded": []
+   }
+  },
+  "feature_issues": 0,
+  "clustering": {
+   "clip": {
+    "selected": "agglomerative|linkage=average,metric=cosine,n_clusters=8",
+    "warnings": [],
+    "n_configs": 25,
+    "outputs": {
+     "sweep": "data/outputs/clustering/clip/sweep_results.json",
+     "selection": "data/outputs/clustering/clip/selected_configuration.json",
+     "assignments": "data/outputs/clustering/clip/assignments.csv"
+    }
+   },
+   "fused": {
+    "selected": "agglomerative|linkage=average,metric=cosine,n_clusters=7",
+    "warnings": [],
+    "n_configs": 25,
+    "outputs": {
+     "sweep": "data/outputs/clustering/fused/sweep_results.json",
+     "selection": "data/outputs/clustering/fused/selected_configuration.json",
+     "assignments": "data/outputs/clustering/fused/assignments.csv"
+    }
+   }
+  },
+  "analytics": {
+   "clip": {
+    "n_artifacts": 0,
+    "skipped": []
+   },
+   "fused": {
+    "n_artifacts": 0,
+    "skipped": []
+   }
+  },
+  "intelligence": {
+   "clip": {
+    "n_observations": 94,
+    "by_status": {
+     "ok": 94
+    }
+   },
+   "fused": {
+    "n_observations": 90,
+    "by_status": {
+     "ok": 90
+    }
+   }
+  }
+ },
+ "timings_s": {
+  "validate": 0.05,
+  "extract": 0.0,
+  "features": 0.01,
+  "clustering": 5.21,
+  "analytics": 2.47,
+  "intelligence": 0.03
+ },
+ "python": "3.11.14",
+ "platform": "macOS-26.1-arm64-arm-64bit",
+ "versions": {
+  "numpy": "2.2.6",
+  "scikit-learn": "1.9.1",
+  "torch": "2.15.0",
+  "open_clip_torch": "4.2.2",
+  "rapidocr_onnxruntime": "1.4.4",
+  "matplotlib": "3.11.2",
+  "pillow": "13.0.0"
+ },
+ "finished_at": "2026-11-13T16:29:04+0530"
+}

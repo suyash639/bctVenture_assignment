@@ -1,0 +1,10 @@
+tile_index,row,col,ad_id,brand,representative,image_loaded
+0,0,0,1013415108457751,Himalaya Wellness,True,True
+1,0,1,1048789364407302,Himalaya Wellness,False,True
+2,0,2,1367478492121558,Himalaya Wellness,True,True
+3,0,3,1598307748623554,Himalaya Wellness,False,True
+4,0,4,1858609855165049,Himalaya Wellness,False,True
+5,1,0,2129333221028958,Himalaya Wellness,True,True
+6,1,1,2215471982684457,Himalaya Wellness,False,True
+7,1,2,4471603566436669,Himalaya Wellness,True,True
+8,1,3,1756705248927160,Mamaearth,False,True

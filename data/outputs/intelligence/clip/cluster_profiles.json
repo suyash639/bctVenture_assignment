@@ -1,0 +1,543 @@
+{
+ "meta": {
+  "n_clusters": 8,
+  "config": {
+   "min_n": 3,
+   "low_text_threshold": 0.05,
+   "high_text_threshold": 0.15,
+   "white_dominant_threshold": 0.4,
+   "low_readability_ratio": 0.5,
+   "top_cross_brand_pairs": 5,
+   "top_distinguishing_features": 3,
+   "n_representatives": 3,
+   "small_sample_n": 10
+  }
+ },
+ "profiles": {
+  "0": {
+   "cluster": "0",
+   "size": 4,
+   "ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "brand_mix": {
+    "Kapiva": 4
+   },
+   "layout_mix": {
+    "product_focused": 4
+   },
+   "orientation_mix": {
+    "square": 4
+   },
+   "cta_mix": {
+    "Shop Now": 4
+   },
+   "mean_text_density": 0.1481,
+   "mean_colour_families": {
+    "red_pink": 0.0102,
+    "orange_yellow": 0.0454,
+    "green": 0.0051,
+    "blue_cyan": 0.004,
+    "violet": 0.0,
+    "white": 0.5118,
+    "dark_grey": 0.4233
+   },
+   "distinguishing_features": [
+    {
+     "feature": "sharpness",
+     "cluster_mean": 2195.7225,
+     "dataset_mean": 895.9446,
+     "z": 1.895,
+     "n": 4
+    },
+    {
+     "feature": "colourfulness",
+     "cluster_mean": 26.8,
+     "dataset_mean": 44.9848,
+     "z": -1.017,
+     "n": 4
+    },
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.4233,
+     "dataset_mean": 0.251,
+     "z": 0.809,
+     "n": 4
+    }
+   ],
+   "representative_ad_ids": [
+    "950705238104018",
+    "1595177445638920",
+    "1515373939961480"
+   ]
+  },
+  "1": {
+   "cluster": "1",
+   "size": 3,
+   "ad_ids": [
+    "1161164159320391",
+    "1585644086536653",
+    "1845266559964841"
+   ],
+   "brand_mix": {
+    "Kapiva": 1,
+    "Mamaearth": 1,
+    "OZiva": 1
+   },
+   "layout_mix": {
+    "lifestyle": 1,
+    "product_focused": 2
+   },
+   "orientation_mix": {
+    "landscape": 1,
+    "portrait": 2
+   },
+   "cta_mix": {
+    "Shop Now": 3
+   },
+   "mean_text_density": 0.2036,
+   "mean_colour_families": {
+    "red_pink": 0.0806,
+    "orange_yellow": 0.2847,
+    "green": 0.0136,
+    "blue_cyan": 0.0092,
+    "violet": 0.0182,
+    "white": 0.351,
+    "dark_grey": 0.2426
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_violet",
+     "cluster_mean": 0.0182,
+     "dataset_mean": 0.0011,
+     "z": 2.241,
+     "n": 3
+    },
+    {
+     "feature": "text_density",
+     "cluster_mean": 0.2036,
+     "dataset_mean": 0.1259,
+     "z": 1.55,
+     "n": 3
+    },
+    {
+     "feature": "colour_red_pink",
+     "cluster_mean": 0.0806,
+     "dataset_mean": 0.0305,
+     "z": 0.988,
+     "n": 3
+    }
+   ],
+   "representative_ad_ids": [
+    "1585644086536653",
+    "1845266559964841",
+    "1161164159320391"
+   ]
+  },
+  "2": {
+   "cluster": "2",
+   "size": 6,
+   "ad_ids": [
+    "1576111410507102",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "4554714978140543"
+   ],
+   "brand_mix": {
+    "Kapiva": 5,
+    "OZiva": 1
+   },
+   "layout_mix": {
+    "educational": 1,
+    "lifestyle": 3,
+    "product_focused": 2
+   },
+   "orientation_mix": {
+    "portrait": 4,
+    "square": 2
+   },
+   "cta_mix": {
+    "Buy Now": 3,
+    "No CTA": 1,
+    "Shop Now": 2
+   },
+   "mean_text_density": 0.1003,
+   "mean_colour_families": {
+    "red_pink": 0.0169,
+    "orange_yellow": 0.1377,
+    "green": 0.1263,
+    "blue_cyan": 0.0162,
+    "violet": 0.0,
+    "white": 0.478,
+    "dark_grey": 0.2248
+   },
+   "distinguishing_features": [
+    {
+     "feature": "aspect_ratio",
+     "cluster_mean": 0.748,
+     "dataset_mean": 0.9184,
+     "z": -0.561,
+     "n": 6
+    },
+    {
+     "feature": "text_density",
+     "cluster_mean": 0.1003,
+     "dataset_mean": 0.1259,
+     "z": -0.511,
+     "n": 6
+    },
+    {
+     "feature": "sharpness",
+     "cluster_mean": 615.215,
+     "dataset_mean": 895.9446,
+     "z": -0.409,
+     "n": 6
+    }
+   ],
+   "representative_ad_ids": [
+    "1576111410507102",
+    "2174897743309961",
+    "1905612623466926"
+   ]
+  },
+  "3": {
+   "cluster": "3",
+   "size": 12,
+   "ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1416324700465227",
+    "1598307748623554",
+    "1756705248927160",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "brand_mix": {
+    "Himalaya Wellness": 10,
+    "Mamaearth": 2
+   },
+   "layout_mix": {
+    "educational": 1,
+    "lifestyle": 6,
+    "product_focused": 4,
+    "unknown": 1
+   },
+   "orientation_mix": {
+    "portrait": 4,
+    "square": 8
+   },
+   "cta_mix": {
+    "No CTA": 1,
+    "Shop Now": 11
+   },
+   "mean_text_density": 0.1261,
+   "mean_colour_families": {
+    "red_pink": 0.02,
+    "orange_yellow": 0.1511,
+    "green": 0.1831,
+    "blue_cyan": 0.0933,
+    "violet": 0.0,
+    "white": 0.326,
+    "dark_grey": 0.2264
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colourfulness",
+     "cluster_mean": 55.8292,
+     "dataset_mean": 44.9848,
+     "z": 0.607,
+     "n": 12
+    },
+    {
+     "feature": "colour_green",
+     "cluster_mean": 0.1831,
+     "dataset_mean": 0.093,
+     "z": 0.583,
+     "n": 12
+    },
+    {
+     "feature": "colour_blue_cyan",
+     "cluster_mean": 0.0933,
+     "dataset_mean": 0.0463,
+     "z": 0.512,
+     "n": 12
+    }
+   ],
+   "representative_ad_ids": [
+    "2129333221028958",
+    "1048789364407302",
+    "4471603566436669"
+   ]
+  },
+  "4": {
+   "cluster": "4",
+   "size": 7,
+   "ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1166813642586560",
+    "1297573992514723",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "brand_mix": {
+    "Mamaearth": 7
+   },
+   "layout_mix": {
+    "product_focused": 7
+   },
+   "orientation_mix": {
+    "portrait": 1,
+    "square": 6
+   },
+   "cta_mix": {
+    "Shop Now": 7
+   },
+   "mean_text_density": 0.0928,
+   "mean_colour_families": {
+    "red_pink": 0.0524,
+    "orange_yellow": 0.2019,
+    "green": 0.0021,
+    "blue_cyan": 0.0063,
+    "violet": 0.0,
+    "white": 0.6635,
+    "dark_grey": 0.0738
+   },
+   "distinguishing_features": [
+    {
+     "feature": "contrast",
+     "cluster_mean": 0.1739,
+     "dataset_mean": 0.2308,
+     "z": -0.886,
+     "n": 7
+    },
+    {
+     "feature": "brightness",
+     "cluster_mean": 0.861,
+     "dataset_mean": 0.6954,
+     "z": 0.848,
+     "n": 7
+    },
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.0738,
+     "dataset_mean": 0.251,
+     "z": -0.832,
+     "n": 7
+    }
+   ],
+   "representative_ad_ids": [
+    "1575470834177468",
+    "1127350820190817",
+    "1166813642586560"
+   ]
+  },
+  "5": {
+   "cluster": "5",
+   "size": 4,
+   "ad_ids": [
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1814901126595057"
+   ],
+   "brand_mix": {
+    "OZiva": 4
+   },
+   "layout_mix": {
+    "lifestyle": 1,
+    "offer_heavy": 1,
+    "product_focused": 2
+   },
+   "orientation_mix": {
+    "landscape": 1,
+    "portrait": 2,
+    "square": 1
+   },
+   "cta_mix": {
+    "Shop Now": 4
+   },
+   "mean_text_density": 0.1679,
+   "mean_colour_families": {
+    "red_pink": 0.0931,
+    "orange_yellow": 0.2479,
+    "green": 0.2394,
+    "blue_cyan": 0.0085,
+    "violet": 0.0,
+    "white": 0.3071,
+    "dark_grey": 0.1039
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_red_pink",
+     "cluster_mean": 0.0931,
+     "dataset_mean": 0.0305,
+     "z": 1.235,
+     "n": 4
+    },
+    {
+     "feature": "colour_green",
+     "cluster_mean": 0.2394,
+     "dataset_mean": 0.093,
+     "z": 0.947,
+     "n": 4
+    },
+    {
+     "feature": "text_density",
+     "cluster_mean": 0.1679,
+     "dataset_mean": 0.1259,
+     "z": 0.838,
+     "n": 4
+    }
+   ],
+   "representative_ad_ids": [
+    "1781776573039288",
+    "1814901126595057",
+    "1650105090459669"
+   ]
+  },
+  "6": {
+   "cluster": "6",
+   "size": 10,
+   "ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "brand_mix": {
+    "MuscleBlaze": 10
+   },
+   "layout_mix": {
+    "educational": 1,
+    "lifestyle": 6,
+    "offer_heavy": 1,
+    "product_focused": 2
+   },
+   "orientation_mix": {
+    "landscape": 1,
+    "portrait": 8,
+    "square": 1
+   },
+   "cta_mix": {
+    "Shop Now": 10
+   },
+   "mean_text_density": 0.1338,
+   "mean_colour_families": {
+    "red_pink": 0.0123,
+    "orange_yellow": 0.0972,
+    "green": 0.021,
+    "blue_cyan": 0.0976,
+    "violet": 0.0002,
+    "white": 0.2807,
+    "dark_grey": 0.4909
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.4909,
+     "dataset_mean": 0.251,
+     "z": 1.126,
+     "n": 10
+    },
+    {
+     "feature": "brightness",
+     "cluster_mean": 0.527,
+     "dataset_mean": 0.6954,
+     "z": -0.863,
+     "n": 10
+    },
+    {
+     "feature": "colour_blue_cyan",
+     "cluster_mean": 0.0976,
+     "dataset_mean": 0.0463,
+     "z": 0.559,
+     "n": 10
+    }
+   ],
+   "representative_ad_ids": [
+    "1021005457107800",
+    "4699175186980657",
+    "1616514576500822"
+   ]
+  },
+  "7": {
+   "cluster": "7",
+   "size": 4,
+   "ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1690263575996817",
+    "3256740111180462"
+   ],
+   "brand_mix": {
+    "OZiva": 4
+   },
+   "layout_mix": {
+    "product_focused": 4
+   },
+   "orientation_mix": {
+    "square": 4
+   },
+   "cta_mix": {
+    "Order Now": 2,
+    "Shop Now": 2
+   },
+   "mean_text_density": 0.0792,
+   "mean_colour_families": {
+    "red_pink": 0.0096,
+    "orange_yellow": 0.0793,
+    "green": 0.1125,
+    "blue_cyan": 0.0001,
+    "violet": 0.0,
+    "white": 0.743,
+    "dark_grey": 0.0555
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_white",
+     "cluster_mean": 0.743,
+     "dataset_mean": 0.4306,
+     "z": 1.006,
+     "n": 4
+    },
+    {
+     "feature": "text_density",
+     "cluster_mean": 0.0792,
+     "dataset_mean": 0.1259,
+     "z": -0.93,
+     "n": 4
+    },
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.0555,
+     "dataset_mean": 0.251,
+     "z": -0.918,
+     "n": 4
+    }
+   ],
+   "representative_ad_ids": [
+    "1096187009418131",
+    "1074001845351229",
+    "1690263575996817"
+   ]
+  }
+ }
+}

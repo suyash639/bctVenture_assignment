@@ -1,0 +1,2185 @@
+{
+ "n_input_ad_ids": 50,
+ "n_artefacts": 16,
+ "seed": 0,
+ "k_representatives": 4,
+ "clusters": {
+  "C0": 7,
+  "C1": 5,
+  "C2": 6,
+  "C3": 5,
+  "C4": 10,
+  "C5": 7,
+  "C6": 10
+ },
+ "image_load_failures": [],
+ "assignment_issues": [],
+ "artefacts": [
+  {
+   "path": "representatives.csv",
+   "kind": "representatives",
+   "description": "Top-4 ads closest to each cluster centroid in fm.X",
+   "status": "ok",
+   "mapping": null,
+   "n_records": 50,
+   "n_covered": 28,
+   "ad_ids_covered": [
+    "1690263575996817",
+    "1074001845351229",
+    "1096187009418131",
+    "3256740111180462",
+    "950705238104018",
+    "1595177445638920",
+    "1515373939961480",
+    "1576111410507102",
+    "1585644086536653",
+    "1166813642586560",
+    "1024439270557511",
+    "1781776573039288",
+    "2174897743309961",
+    "1905612623466926",
+    "2430800034011084",
+    "1161164159320391",
+    "2129333221028958",
+    "1367478492121558",
+    "4471603566436669",
+    "1048789364407302",
+    "1575470834177468",
+    "1127350820190817",
+    "1297573992514723",
+    "1101328145809077",
+    "1021005457107800",
+    "4699175186980657",
+    "1616514576500822",
+    "27068411412827135"
+   ],
+   "n_missing_with_reasons": 22,
+   "missing": [
+    {
+     "ad_id": "1521879793036986",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "cluster member, not among closest-to-centroid"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "cluster member, not among closest-to-centroid"
+    }
+   ]
+  },
+  {
+   "path": "contact_sheets/cluster_C0.png",
+   "kind": "contact_sheet",
+   "description": "All members of C0; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C0.csv",
+   "n_records": 50,
+   "n_covered": 7,
+   "ad_ids_covered": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "n_missing_with_reasons": 43,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1515373939961480",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "belongs to C6, shown on that sheet"
+    }
+   ],
+   "cluster": "C0",
+   "image_load_failures": []
+  },
+  {
+   "path": "contact_sheets/cluster_C1.png",
+   "kind": "contact_sheet",
+   "description": "All members of C1; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C1.csv",
+   "n_records": 50,
+   "n_covered": 5,
+   "ad_ids_covered": [
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "n_missing_with_reasons": 45,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "belongs to C6, shown on that sheet"
+    }
+   ],
+   "cluster": "C1",
+   "image_load_failures": []
+  },
+  {
+   "path": "contact_sheets/cluster_C2.png",
+   "kind": "contact_sheet",
+   "description": "All members of C2; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C2.csv",
+   "n_records": 50,
+   "n_covered": 6,
+   "ad_ids_covered": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1650105090459669",
+    "1781776573039288",
+    "1845266559964841"
+   ],
+   "n_missing_with_reasons": 44,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1515373939961480",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "belongs to C6, shown on that sheet"
+    }
+   ],
+   "cluster": "C2",
+   "image_load_failures": []
+  },
+  {
+   "path": "contact_sheets/cluster_C3.png",
+   "kind": "contact_sheet",
+   "description": "All members of C3; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C3.csv",
+   "n_records": 50,
+   "n_covered": 5,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569"
+   ],
+   "n_missing_with_reasons": 45,
+   "missing": [
+    {
+     "ad_id": "1515373939961480",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "belongs to C6, shown on that sheet"
+    }
+   ],
+   "cluster": "C3",
+   "image_load_failures": []
+  },
+  {
+   "path": "contact_sheets/cluster_C4.png",
+   "kind": "contact_sheet",
+   "description": "All members of C4; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C4.csv",
+   "n_records": 50,
+   "n_covered": 10,
+   "ad_ids_covered": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1756705248927160"
+   ],
+   "n_missing_with_reasons": 40,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1515373939961480",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "belongs to C6, shown on that sheet"
+    }
+   ],
+   "cluster": "C4",
+   "image_load_failures": []
+  },
+  {
+   "path": "contact_sheets/cluster_C5.png",
+   "kind": "contact_sheet",
+   "description": "All members of C5; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C5.csv",
+   "n_records": 50,
+   "n_covered": 7,
+   "ad_ids_covered": [
+    "1127418319612582",
+    "1101328145809077",
+    "1127350820190817",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "n_missing_with_reasons": 43,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1515373939961480",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "belongs to C6, shown on that sheet"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "belongs to C6, shown on that sheet"
+    }
+   ],
+   "cluster": "C5",
+   "image_load_failures": []
+  },
+  {
+   "path": "contact_sheets/cluster_C6.png",
+   "kind": "contact_sheet",
+   "description": "All members of C6; tiles labelled brand + ad_id; representatives outlined in blue",
+   "status": "ok",
+   "mapping": "contact_sheets/cluster_C6.csv",
+   "n_records": 50,
+   "n_covered": 10,
+   "ad_ids_covered": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 40,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "1515373939961480",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "belongs to C3, shown on that sheet"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "belongs to C1, shown on that sheet"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "belongs to C0, shown on that sheet"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "belongs to C2, shown on that sheet"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "belongs to C5, shown on that sheet"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "belongs to C4, shown on that sheet"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "belongs to C4, shown on that sheet"
+    }
+   ],
+   "cluster": "C6",
+   "image_load_failures": []
+  },
+  {
+   "path": "projections/pca_2d.png",
+   "kind": "projection_pca",
+   "description": "PCA 2-D of fm.X; colour = cluster, marker = brand",
+   "status": "ok",
+   "mapping": "projections/pca_2d.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": [],
+   "explained_variance_ratio": [
+    0.0964,
+    0.0869
+   ]
+  },
+  {
+   "path": null,
+   "kind": "projection_umap",
+   "description": "UMAP 2-D projection",
+   "status": "skipped: umap-learn not installed",
+   "mapping": null,
+   "n_records": 50,
+   "n_covered": 0,
+   "ad_ids_covered": [],
+   "n_missing_with_reasons": 50,
+   "missing": [
+    {
+     "ad_id": "1161164159320391",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1515373939961480",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1521879793036986",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1576111410507102",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1595177445638920",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1905612623466926",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "2174897743309961",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "2430800034011084",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "3941084412853569",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "950705238104018",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1096187009418131",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1690263575996817",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1814901126595057",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "3256740111180462",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "4554714978140543",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1074001845351229",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1650105090459669",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1669408884833124",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1781776573039288",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1845266559964841",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1166813642586560",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1297573992514723",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1416324700465227",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1575470834177468",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1756705248927160",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "962201073595416",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1024439270557511",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1101328145809077",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1127350820190817",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1585644086536653",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1048789364407302",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1127418319612582",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1367478492121558",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1598307748623554",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1858609855165049",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1013415108457751",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "2112804086326796",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "2129333221028958",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "2215471982684457",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "4471603566436669",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1302729857652675",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1308070633511851",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "3842344959313280",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1021005457107800",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1616514576500822",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1618366923229535",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "1807178123387779",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "27068411412827135",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "4699175186980657",
+     "reason": "umap-learn not installed"
+    },
+    {
+     "ad_id": "629623256117440",
+     "reason": "umap-learn not installed"
+    }
+   ]
+  },
+  {
+   "path": "distributions/cluster_sizes.png",
+   "kind": "cluster_size",
+   "description": "Number of ads per cluster (noise/unassigned shown separately)",
+   "status": "ok",
+   "mapping": "distributions/cluster_sizes.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": [],
+   "sizes": {
+    "C0": 7,
+    "C1": 5,
+    "C2": 6,
+    "C3": 5,
+    "C4": 10,
+    "C5": 7,
+    "C6": 10
+   }
+  },
+  {
+   "path": "distributions/brand_by_cluster.png",
+   "kind": "brand_cluster",
+   "description": "Counts of ads per brand and cluster (table in brand_by_cluster_table.csv)",
+   "status": "ok",
+   "mapping": "distributions/brand_by_cluster.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": []
+  },
+  {
+   "path": "distributions/dominant_colours.png",
+   "kind": "dominant_colours",
+   "description": "Dominant colour strips per brand and per cluster",
+   "status": "ok",
+   "mapping": "distributions/dominant_colours.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": []
+  },
+  {
+   "path": "distributions/orientation_aspect.png",
+   "kind": "orientation_aspect",
+   "description": "Orientation counts and per-ad aspect ratios by brand",
+   "status": "ok",
+   "mapping": "distributions/orientation_aspect.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": []
+  },
+  {
+   "path": "distributions/text_density.png",
+   "kind": "text_density",
+   "description": "OCR text-density box + per-ad dots, per brand and per cluster",
+   "status": "ok",
+   "mapping": "distributions/text_density.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": []
+  },
+  {
+   "path": "distributions/layout_categories.png",
+   "kind": "layout_category",
+   "description": "Layout category counts per brand and per cluster",
+   "status": "ok",
+   "mapping": "distributions/layout_categories.csv",
+   "n_records": 50,
+   "n_covered": 50,
+   "ad_ids_covered": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543",
+    "1074001845351229",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1845266559964841",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416",
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1585644086536653",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "1013415108457751",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669",
+    "1302729857652675",
+    "1308070633511851",
+    "3842344959313280",
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "n_missing_with_reasons": 0,
+   "missing": [],
+   "counts": {
+    "lifestyle": 17,
+    "product_focused": 27,
+    "educational": 3,
+    "offer_heavy": 2,
+    "unknown": 1
+   }
+  }
+ ]
+}

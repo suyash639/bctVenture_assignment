@@ -1,0 +1,10 @@
+{
+  "_note": "SYNTHETIC test fixture — not real data, never served by the app",
+  "schema_version": "1.0",
+  "generated_at": "2000-01-01T00:00:00+0000",
+  "provisional": true,
+  "dataset": { "sha256": "0000000000synthetic", "frozen": false, "frozen_at": null, "n_verified": 3, "n_excluded": 0, "per_brand": {} },
+  "pipeline": null,
+  "available": { "features": false, "clusters": false, "projection": false, "insights": false },
+  "brands": ["SyntheticBrandA", "SyntheticBrandB"]
+}

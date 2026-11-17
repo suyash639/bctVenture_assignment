@@ -1,0 +1,22 @@
+brand,original_ad_id,original_advertiser,failure_reason,replacement_ad_id,replacement_advertiser,status
+OZiva,1420351880207698,IHG Hotels & Resorts,"advertiser is 'IHG Hotels & Resorts', not OZiva; visual review: not a brand creative: IHG hotel ad",1669408884833124,OZiva,replaced
+OZiva,1929162257703498,HyugaLife,"advertiser is 'HyugaLife', not OZiva; visual review: not a brand creative: HyugaLife reseller ad (GNC whey)",1650105090459669,OZiva,replaced
+OZiva,1778699290118107,OZiva,duplicate creative of 1690263575996817 (dup01),1845266559964841,OZiva,replaced
+OZiva,1474167550428125,Ziva - Elite Active Retirement Community,"advertiser is 'Ziva - Elite Active Retirement Community', not OZiva; visual review: not a brand creative: Ziva retirement-community ad",1781776573039288,OZiva,replaced
+OZiva,1064050913211179,OZiva,"visual review: video poster is a talking-head frame with a subtitle; product not shown, does not represent the full ad",1074001845351229,OZiva,replaced
+Mamaearth,1743457663429642,Nykaa,"advertiser is 'Nykaa', not Mamaearth; visual review: not a brand creative: Nykaa ad for Palmer's",1101328145809077,Mamaearth,replaced
+Mamaearth,3326676907721431,Nykaa,"advertiser is 'Nykaa', not Mamaearth; visual review: not a brand creative: Nykaa ad for Palmer's",1024439270557511,Mamaearth,replaced
+Mamaearth,984803553943986,Mamaearth,sharpness 99.76 < 100.0,1585644086536653,Mamaearth,replaced
+Mamaearth,2119943695297738,Nykaa,"advertiser is 'Nykaa', not Mamaearth; sharpness 91.2 < 100.0; visual review: not a brand creative: Nykaa ad for Kraftpro hair clips",1127350820190817,Mamaearth,replaced
+Himalaya Wellness,1723845068824942,Himalaya Hair Care,duplicate creative of 1048789364407302 (dup02),4471603566436669,Himalaya Hair Care,replaced
+Himalaya Wellness,2280990806062372,Himalaya Hair Care,duplicate creative of 1048789364407302 (dup02),1013415108457751,Himalaya Hair Care,replaced
+Himalaya Wellness,4080202645605794,blinkit,"advertiser is 'blinkit', not Himalaya Wellness; visual review: not a brand creative: blinkit ad for Plum face wash",2129333221028958,Himalaya Hair Care,replaced
+Himalaya Wellness,1983600392299552,Himalaya Hair Care,duplicate creative of 1048789364407302 (dup02),2215471982684457,Himalaya Hair Care,replaced
+Himalaya Wellness,1620125006185431,Himalaya Hair Care,duplicate creative of 1048789364407302 (dup02),2112804086326796,Himalaya Hair Care,replaced
+MuscleBlaze,1951875575774936,Snapmint,"advertiser is 'Snapmint', not MuscleBlaze; longest side 300px < 600; visual review: not a brand creative: Snapmint ad (iPhone)",27068411412827135,MuscleBlaze,replaced
+MuscleBlaze,915010216637917,MuscleBlaze,duplicate creative of 1308070633511851 (dup04),1021005457107800,MuscleBlaze,replaced
+MuscleBlaze,1764651081440717,Nykaa Man,"advertiser is 'Nykaa Man', not MuscleBlaze; visual review: not a brand creative: Nykaa Man ad (Paco Rabanne)",1618366923229535,MuscleBlaze,replaced
+MuscleBlaze,1886343558542559,MuscleBlaze,duplicate creative of 1308070633511851 (dup04),1807178123387779,MuscleBlaze,replaced
+MuscleBlaze,1289012628945561,HealthKart,"advertiser is 'HealthKart', not MuscleBlaze; visual review: not a brand creative: HealthKart ad (MuscleBlaze product, reseller advertiser)",4699175186980657,MuscleBlaze,replaced
+MuscleBlaze,1116388987911414,Snapmint,"advertiser is 'Snapmint', not MuscleBlaze; longest side 300px < 600; visual review: not a brand creative: Snapmint ad (apparel)",1616514576500822,MuscleBlaze,replaced
+MuscleBlaze,881696651677163,Nykaa Man,"advertiser is 'Nykaa Man', not MuscleBlaze; visual review: not a brand creative: Nykaa Man ad (Paco Rabanne)",629623256117440,MuscleBlaze,replaced

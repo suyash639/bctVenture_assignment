@@ -1,0 +1,11 @@
+tile_index,row,col,ad_id,brand,representative,image_loaded
+0,0,0,1021005457107800,MuscleBlaze,True,True
+1,0,1,1302729857652675,MuscleBlaze,False,True
+2,0,2,1308070633511851,MuscleBlaze,False,True
+3,0,3,1616514576500822,MuscleBlaze,True,True
+4,0,4,1618366923229535,MuscleBlaze,False,True
+5,1,0,1807178123387779,MuscleBlaze,False,True
+6,1,1,27068411412827135,MuscleBlaze,True,True
+7,1,2,3842344959313280,MuscleBlaze,False,True
+8,1,3,4699175186980657,MuscleBlaze,True,True
+9,1,4,629623256117440,MuscleBlaze,False,True

@@ -1,0 +1,23 @@
+[project]
+name = "advision-ai"
+version = "0.3.0"
+description = "Meta Ad Library creative verification, visual feature extraction and creative clustering for Indian D2C brands"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["legacy", "dashboard", ".venv", "data"]
+addopts = "-p no:cacheprovider"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["legacy", "dashboard", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = [
+  "E402",  # scripts add the repo root to sys.path before importing src
+  "E501",  # long regexes / literal strings; line length is enforced by review, not lint
+]

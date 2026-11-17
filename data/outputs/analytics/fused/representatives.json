@@ -1,0 +1,191 @@
+{
+ "C0": {
+  "cluster_id": 0,
+  "size": 7,
+  "representatives": [
+   {
+    "ad_id": "1690263575996817",
+    "brand": "OZiva",
+    "distance_to_centroid": 0.780643
+   },
+   {
+    "ad_id": "1074001845351229",
+    "brand": "OZiva",
+    "distance_to_centroid": 0.780679
+   },
+   {
+    "ad_id": "1096187009418131",
+    "brand": "OZiva",
+    "distance_to_centroid": 0.783642
+   },
+   {
+    "ad_id": "3256740111180462",
+    "brand": "OZiva",
+    "distance_to_centroid": 0.93211
+   }
+  ],
+  "not_in_matrix": []
+ },
+ "C1": {
+  "cluster_id": 1,
+  "size": 5,
+  "representatives": [
+   {
+    "ad_id": "950705238104018",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.851251
+   },
+   {
+    "ad_id": "1595177445638920",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.870802
+   },
+   {
+    "ad_id": "1515373939961480",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.924448
+   },
+   {
+    "ad_id": "1576111410507102",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.960012
+   }
+  ],
+  "not_in_matrix": []
+ },
+ "C2": {
+  "cluster_id": 2,
+  "size": 6,
+  "representatives": [
+   {
+    "ad_id": "1585644086536653",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.907018
+   },
+   {
+    "ad_id": "1166813642586560",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.919924
+   },
+   {
+    "ad_id": "1024439270557511",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.951687
+   },
+   {
+    "ad_id": "1781776573039288",
+    "brand": "OZiva",
+    "distance_to_centroid": 0.957867
+   }
+  ],
+  "not_in_matrix": []
+ },
+ "C3": {
+  "cluster_id": 3,
+  "size": 5,
+  "representatives": [
+   {
+    "ad_id": "2174897743309961",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.846336
+   },
+   {
+    "ad_id": "1905612623466926",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.891476
+   },
+   {
+    "ad_id": "2430800034011084",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.920791
+   },
+   {
+    "ad_id": "1161164159320391",
+    "brand": "Kapiva",
+    "distance_to_centroid": 0.923457
+   }
+  ],
+  "not_in_matrix": []
+ },
+ "C4": {
+  "cluster_id": 4,
+  "size": 10,
+  "representatives": [
+   {
+    "ad_id": "2129333221028958",
+    "brand": "Himalaya Wellness",
+    "distance_to_centroid": 0.724958
+   },
+   {
+    "ad_id": "1367478492121558",
+    "brand": "Himalaya Wellness",
+    "distance_to_centroid": 0.787758
+   },
+   {
+    "ad_id": "4471603566436669",
+    "brand": "Himalaya Wellness",
+    "distance_to_centroid": 0.792793
+   },
+   {
+    "ad_id": "1048789364407302",
+    "brand": "Himalaya Wellness",
+    "distance_to_centroid": 0.85547
+   }
+  ],
+  "not_in_matrix": []
+ },
+ "C5": {
+  "cluster_id": 5,
+  "size": 7,
+  "representatives": [
+   {
+    "ad_id": "1575470834177468",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.789685
+   },
+   {
+    "ad_id": "1127350820190817",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.877299
+   },
+   {
+    "ad_id": "1297573992514723",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.879433
+   },
+   {
+    "ad_id": "1101328145809077",
+    "brand": "Mamaearth",
+    "distance_to_centroid": 0.912967
+   }
+  ],
+  "not_in_matrix": []
+ },
+ "C6": {
+  "cluster_id": 6,
+  "size": 10,
+  "representatives": [
+   {
+    "ad_id": "1021005457107800",
+    "brand": "MuscleBlaze",
+    "distance_to_centroid": 0.777833
+   },
+   {
+    "ad_id": "4699175186980657",
+    "brand": "MuscleBlaze",
+    "distance_to_centroid": 0.808042
+   },
+   {
+    "ad_id": "1616514576500822",
+    "brand": "MuscleBlaze",
+    "distance_to_centroid": 0.824062
+   },
+   {
+    "ad_id": "27068411412827135",
+    "brand": "MuscleBlaze",
+    "distance_to_centroid": 0.869007
+   }
+  ],
+  "not_in_matrix": []
+ }
+}

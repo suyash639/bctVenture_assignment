@@ -1,0 +1,27 @@
+{
+  "_comment": "Config for `python -m src.pipeline.run`. Paths are relative to the repo root.",
+  "inputs": {
+    "dataset_csv": "data/processed/validated_dataset.csv",
+    "freeze_marker": "data/processed/DATASET_FROZEN.json",
+    "features_json": "data/processed/visual_features.json",
+    "embeddings_npy": "data/processed/clip_embeddings.npy",
+    "require": {"final_status": "VERIFIED"}
+  },
+  "extraction": {"enabled": false, "device": "cpu", "batch_size": 16},
+  "features": {
+    "blocks": {"clip": 1.0, "numeric": 0.0, "colour": 0.0, "layout": 0.0, "text": 0.0},
+    "clip_pca_components": null,
+    "scaler": "standard",
+    "impute": "median",
+    "seed": 0
+  },
+  "feature_variants": {
+    "fused": {"blocks": {"clip": 1.0, "numeric": 0.35, "colour": 0.35, "layout": 0.25, "text": 0.0},
+              "clip_pca_components": null, "scaler": "standard", "impute": "median", "seed": 0}
+  },
+  "clustering": {"grid": "default", "stability_seeds": [0, 1, 2, 3, 4]},
+  "analytics": {"representatives_per_cluster": 4},
+  "intelligence": {"min_n": 3},
+  "outputs": {"root": "data/outputs", "report": "reports/analysis_run_report.md"},
+  "seed": 0
+}

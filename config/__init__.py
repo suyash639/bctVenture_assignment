@@ -1,0 +1,33 @@
+"""Configuration package for Meta Ads Intelligence."""
+from config.settings import (
+    BASE_DIR,
+    BRAND_SLUG_MAP,
+    BROWSER_CONFIG,
+    CREATIVES_DIR,
+    DATA_DIR,
+    DATASET_FILES,
+    META_AD_DETAIL_URL_TEMPLATE,
+    META_AD_LIBRARY_BASE_URL,
+    OUTPUTS_DIR,
+    PROCESSED_DATA_DIR,
+    RAW_DATA_DIR,
+    REPORTS_DIR,
+    TARGET_BRANDS,
+)
+
+__all__ = [
+    "BASE_DIR",
+    "DATA_DIR",
+    "RAW_DATA_DIR",
+    "PROCESSED_DATA_DIR",
+    "OUTPUTS_DIR",
+    "CREATIVES_DIR",
+    "REPORTS_DIR",
+    "TARGET_BRANDS",
+    "BRAND_SLUG_MAP",
+    "META_AD_LIBRARY_BASE_URL",
+    "META_AD_DETAIL_URL_TEMPLATE",
+    "BROWSER_CONFIG",
+    "DATASET_FILES",
+]
+

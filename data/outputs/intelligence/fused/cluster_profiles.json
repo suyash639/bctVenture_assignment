@@ -1,0 +1,487 @@
+{
+ "meta": {
+  "n_clusters": 7,
+  "config": {
+   "min_n": 3,
+   "low_text_threshold": 0.05,
+   "high_text_threshold": 0.15,
+   "white_dominant_threshold": 0.4,
+   "low_readability_ratio": 0.5,
+   "top_cross_brand_pairs": 5,
+   "top_distinguishing_features": 3,
+   "n_representatives": 3,
+   "small_sample_n": 10
+  }
+ },
+ "profiles": {
+  "0": {
+   "cluster": "0",
+   "size": 7,
+   "ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "brand_mix": {
+    "OZiva": 7
+   },
+   "layout_mix": {
+    "lifestyle": 1,
+    "product_focused": 6
+   },
+   "orientation_mix": {
+    "portrait": 2,
+    "square": 5
+   },
+   "cta_mix": {
+    "Order Now": 2,
+    "Shop Now": 5
+   },
+   "mean_text_density": 0.1063,
+   "mean_colour_families": {
+    "red_pink": 0.0134,
+    "orange_yellow": 0.0902,
+    "green": 0.2553,
+    "blue_cyan": 0.0058,
+    "violet": 0.0,
+    "white": 0.5467,
+    "dark_grey": 0.0887
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_green",
+     "cluster_mean": 0.2553,
+     "dataset_mean": 0.093,
+     "z": 1.049,
+     "n": 7
+    },
+    {
+     "feature": "colourfulness",
+     "cluster_mean": 60.9043,
+     "dataset_mean": 44.9848,
+     "z": 0.89,
+     "n": 7
+    },
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.0887,
+     "dataset_mean": 0.251,
+     "z": -0.762,
+     "n": 7
+    }
+   ],
+   "representative_ad_ids": [
+    "1690263575996817",
+    "1096187009418131",
+    "1074001845351229"
+   ]
+  },
+  "1": {
+   "cluster": "1",
+   "size": 5,
+   "ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "brand_mix": {
+    "Kapiva": 5
+   },
+   "layout_mix": {
+    "lifestyle": 1,
+    "product_focused": 4
+   },
+   "orientation_mix": {
+    "square": 5
+   },
+   "cta_mix": {
+    "Buy Now": 1,
+    "Shop Now": 4
+   },
+   "mean_text_density": 0.1321,
+   "mean_colour_families": {
+    "red_pink": 0.0183,
+    "orange_yellow": 0.0642,
+    "green": 0.0398,
+    "blue_cyan": 0.0033,
+    "violet": 0.0,
+    "white": 0.4641,
+    "dark_grey": 0.4102
+   },
+   "distinguishing_features": [
+    {
+     "feature": "sharpness",
+     "cluster_mean": 2102.792,
+     "dataset_mean": 895.9446,
+     "z": 1.759,
+     "n": 5
+    },
+    {
+     "feature": "contrast",
+     "cluster_mean": 0.281,
+     "dataset_mean": 0.2308,
+     "z": 0.782,
+     "n": 5
+    },
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.4102,
+     "dataset_mean": 0.251,
+     "z": 0.747,
+     "n": 5
+    }
+   ],
+   "representative_ad_ids": [
+    "950705238104018",
+    "1595177445638920",
+    "1515373939961480"
+   ]
+  },
+  "2": {
+   "cluster": "2",
+   "size": 6,
+   "ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1650105090459669",
+    "1781776573039288",
+    "1845266559964841"
+   ],
+   "brand_mix": {
+    "Mamaearth": 3,
+    "OZiva": 3
+   },
+   "layout_mix": {
+    "lifestyle": 1,
+    "offer_heavy": 1,
+    "product_focused": 4
+   },
+   "orientation_mix": {
+    "landscape": 2,
+    "portrait": 3,
+    "square": 1
+   },
+   "cta_mix": {
+    "Shop Now": 6
+   },
+   "mean_text_density": 0.2014,
+   "mean_colour_families": {
+    "red_pink": 0.0998,
+    "orange_yellow": 0.4767,
+    "green": 0.0136,
+    "blue_cyan": 0.0115,
+    "violet": 0.0091,
+    "white": 0.1685,
+    "dark_grey": 0.2209
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_orange_yellow",
+     "cluster_mean": 0.4767,
+     "dataset_mean": 0.1474,
+     "z": 1.9,
+     "n": 6
+    },
+    {
+     "feature": "text_density",
+     "cluster_mean": 0.2014,
+     "dataset_mean": 0.1259,
+     "z": 1.506,
+     "n": 6
+    },
+    {
+     "feature": "colour_red_pink",
+     "cluster_mean": 0.0998,
+     "dataset_mean": 0.0305,
+     "z": 1.366,
+     "n": 6
+    }
+   ],
+   "representative_ad_ids": [
+    "1585644086536653",
+    "1650105090459669",
+    "1166813642586560"
+   ]
+  },
+  "3": {
+   "cluster": "3",
+   "size": 5,
+   "ad_ids": [
+    "1161164159320391",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569"
+   ],
+   "brand_mix": {
+    "Kapiva": 5
+   },
+   "layout_mix": {
+    "educational": 1,
+    "lifestyle": 2,
+    "product_focused": 2
+   },
+   "orientation_mix": {
+    "portrait": 4,
+    "square": 1
+   },
+   "cta_mix": {
+    "Buy Now": 2,
+    "No CTA": 1,
+    "Shop Now": 2
+   },
+   "mean_text_density": 0.1147,
+   "mean_colour_families": {
+    "red_pink": 0.0145,
+    "orange_yellow": 0.1122,
+    "green": 0.0339,
+    "blue_cyan": 0.0177,
+    "violet": 0.0,
+    "white": 0.6697,
+    "dark_grey": 0.1518
+   },
+   "distinguishing_features": [
+    {
+     "feature": "aspect_ratio",
+     "cluster_mean": 0.6503,
+     "dataset_mean": 0.9184,
+     "z": -0.883,
+     "n": 5
+    },
+    {
+     "feature": "sharpness",
+     "cluster_mean": 295.836,
+     "dataset_mean": 895.9446,
+     "z": -0.875,
+     "n": 5
+    },
+    {
+     "feature": "colour_white",
+     "cluster_mean": 0.6697,
+     "dataset_mean": 0.4306,
+     "z": 0.77,
+     "n": 5
+    }
+   ],
+   "representative_ad_ids": [
+    "2174897743309961",
+    "1905612623466926",
+    "2430800034011084"
+   ]
+  },
+  "4": {
+   "cluster": "4",
+   "size": 10,
+   "ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1756705248927160",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "brand_mix": {
+    "Himalaya Wellness": 9,
+    "Mamaearth": 1
+   },
+   "layout_mix": {
+    "educational": 1,
+    "lifestyle": 6,
+    "product_focused": 2,
+    "unknown": 1
+   },
+   "orientation_mix": {
+    "portrait": 4,
+    "square": 6
+   },
+   "cta_mix": {
+    "No CTA": 1,
+    "Shop Now": 9
+   },
+   "mean_text_density": 0.1356,
+   "mean_colour_families": {
+    "red_pink": 0.0238,
+    "orange_yellow": 0.1791,
+    "green": 0.2076,
+    "blue_cyan": 0.1026,
+    "violet": 0.0,
+    "white": 0.2347,
+    "dark_grey": 0.2521
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colourfulness",
+     "cluster_mean": 58.791,
+     "dataset_mean": 44.9848,
+     "z": 0.772,
+     "n": 10
+    },
+    {
+     "feature": "colour_green",
+     "cluster_mean": 0.2076,
+     "dataset_mean": 0.093,
+     "z": 0.741,
+     "n": 10
+    },
+    {
+     "feature": "colour_white",
+     "cluster_mean": 0.2347,
+     "dataset_mean": 0.4306,
+     "z": -0.631,
+     "n": 10
+    }
+   ],
+   "representative_ad_ids": [
+    "2129333221028958",
+    "1048789364407302",
+    "4471603566436669"
+   ]
+  },
+  "5": {
+   "cluster": "5",
+   "size": 7,
+   "ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "brand_mix": {
+    "Himalaya Wellness": 1,
+    "Mamaearth": 6
+   },
+   "layout_mix": {
+    "product_focused": 7
+   },
+   "orientation_mix": {
+    "square": 7
+   },
+   "cta_mix": {
+    "Shop Now": 7
+   },
+   "mean_text_density": 0.059,
+   "mean_colour_families": {
+    "red_pink": 0.0439,
+    "orange_yellow": 0.0332,
+    "green": 0.0181,
+    "blue_cyan": 0.0141,
+    "violet": 0.0,
+    "white": 0.8388,
+    "dark_grey": 0.052
+   },
+   "distinguishing_features": [
+    {
+     "feature": "text_density",
+     "cluster_mean": 0.059,
+     "dataset_mean": 0.1259,
+     "z": -1.333,
+     "n": 7
+    },
+    {
+     "feature": "colour_white",
+     "cluster_mean": 0.8388,
+     "dataset_mean": 0.4306,
+     "z": 1.314,
+     "n": 7
+    },
+    {
+     "feature": "brightness",
+     "cluster_mean": 0.9224,
+     "dataset_mean": 0.6954,
+     "z": 1.163,
+     "n": 7
+    }
+   ],
+   "representative_ad_ids": [
+    "1575470834177468",
+    "1127350820190817",
+    "1297573992514723"
+   ]
+  },
+  "6": {
+   "cluster": "6",
+   "size": 10,
+   "ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "brand_mix": {
+    "MuscleBlaze": 10
+   },
+   "layout_mix": {
+    "educational": 1,
+    "lifestyle": 6,
+    "offer_heavy": 1,
+    "product_focused": 2
+   },
+   "orientation_mix": {
+    "landscape": 1,
+    "portrait": 8,
+    "square": 1
+   },
+   "cta_mix": {
+    "Shop Now": 10
+   },
+   "mean_text_density": 0.1338,
+   "mean_colour_families": {
+    "red_pink": 0.0123,
+    "orange_yellow": 0.0972,
+    "green": 0.021,
+    "blue_cyan": 0.0976,
+    "violet": 0.0002,
+    "white": 0.2807,
+    "dark_grey": 0.4909
+   },
+   "distinguishing_features": [
+    {
+     "feature": "colour_dark_grey",
+     "cluster_mean": 0.4909,
+     "dataset_mean": 0.251,
+     "z": 1.126,
+     "n": 10
+    },
+    {
+     "feature": "brightness",
+     "cluster_mean": 0.527,
+     "dataset_mean": 0.6954,
+     "z": -0.863,
+     "n": 10
+    },
+    {
+     "feature": "colour_blue_cyan",
+     "cluster_mean": 0.0976,
+     "dataset_mean": 0.0463,
+     "z": 0.559,
+     "n": 10
+    }
+   ],
+   "representative_ad_ids": [
+    "1021005457107800",
+    "4699175186980657",
+    "1616514576500822"
+   ]
+  }
+ }
+}

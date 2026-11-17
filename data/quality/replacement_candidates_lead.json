@@ -1,0 +1,51 @@
+{
+ "generated_at": "2026-11-13T16:13:50+0530",
+ "generated_by": "lead (after polite resume, 1 worker)",
+ "note": "Candidates verified on their exact live cards in data/quality/replacement_cards.json; ranked best-first after visual review.",
+ "candidates": {
+  "Himalaya Wellness": [
+   {
+    "ad_id": "4471603566436669"
+   },
+   {
+    "ad_id": "1013415108457751"
+   },
+   {
+    "ad_id": "2129333221028958"
+   },
+   {
+    "ad_id": "2215471982684457"
+   },
+   {
+    "ad_id": "1592313662161176"
+   },
+   {
+    "ad_id": "1115816494122513"
+   },
+   {
+    "ad_id": "2112804086326796"
+   },
+   {
+    "ad_id": "1126182349975686"
+   },
+   {
+    "ad_id": "2521696481648312"
+   },
+   {
+    "ad_id": "1096181883231252"
+   },
+   {
+    "ad_id": "1081597870910005"
+   },
+   {
+    "ad_id": "27894864253480176"
+   },
+   {
+    "ad_id": "4028706644097800"
+   },
+   {
+    "ad_id": "4501524406843689"
+   }
+  ]
+ }
+}

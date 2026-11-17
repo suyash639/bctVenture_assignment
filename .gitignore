@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments, virtualenvs & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Playwright & Browser MCP artifacts & logs
+.playwright-mcp/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary test outputs
+/tmp/
+scratch/
+/test_*.js
+/test_*.py
+
+
+# Generated pipeline outputs and bulky evidence snapshots (reproducible / archived separately)
+data/outputs/logs/
+data/archive/
+data/quality/control_staging/
+*.tmp
+
+# Excluded documentation folder (kept locally only)
+docs/
+
+# Tool caches & JS build output
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+node_modules/
+.next/
+dashboard/out/
+*.tsbuildinfo
+*.log

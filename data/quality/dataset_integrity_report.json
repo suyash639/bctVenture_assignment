@@ -1,0 +1,62 @@
+{
+ "passed": true,
+ "checks": [
+  {
+   "check": "unique ad_id across dataset",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "check": "unique image path per verified ad",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "no identical image bytes across verified ads",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "verified image exists and sha256 matches",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "check": "verified ads: advertiser is an allowlisted official page or partnership",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "brand names are canonical",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "check": "verified ads: all five status fields pass",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "verified ads: start_date parses",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "check": "landing URLs are http(s) when present",
+   "passed": true,
+   "detail": []
+  },
+  {
+   "check": "verified count matches selection",
+   "passed": true,
+   "detail": null
+  }
+ ],
+ "verified_records_missing_optional_fields": {
+  "cta": 2,
+  "landing_url": 0,
+  "body": 0,
+  "end_date": 50
+ },
+ "note": "Missing optional fields are left empty (unavailable on the live card), never inferred."
+}

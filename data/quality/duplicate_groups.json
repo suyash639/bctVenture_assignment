@@ -1,0 +1,264 @@
+{
+ "generated_at": "2026-11-13T16:13:51+0530",
+ "method": {
+  "exact": "sha256 of downloaded bytes",
+  "near": "64-bit dHash hamming <= 6"
+ },
+ "groups": [
+  {
+   "members": [
+    "1690263575996817",
+    "1778699290118107"
+   ],
+   "edges": [
+    {
+     "a": "1778699290118107",
+     "b": "1690263575996817",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup01",
+   "representative": "1690263575996817",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "OZiva"
+   ]
+  },
+  {
+   "members": [
+    "1048789364407302",
+    "1115816494122513",
+    "1620125006185431",
+    "1723845068824942",
+    "1983600392299552",
+    "2280990806062372"
+   ],
+   "edges": [
+    {
+     "a": "1723845068824942",
+     "b": "2280990806062372",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1723845068824942",
+     "b": "1048789364407302",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1723845068824942",
+     "b": "1983600392299552",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1723845068824942",
+     "b": "1620125006185431",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1723845068824942",
+     "b": "1115816494122513",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "2280990806062372",
+     "b": "1048789364407302",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "2280990806062372",
+     "b": "1983600392299552",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "2280990806062372",
+     "b": "1620125006185431",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "2280990806062372",
+     "b": "1115816494122513",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1048789364407302",
+     "b": "1983600392299552",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1048789364407302",
+     "b": "1620125006185431",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1048789364407302",
+     "b": "1115816494122513",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1983600392299552",
+     "b": "1620125006185431",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1983600392299552",
+     "b": "1115816494122513",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1620125006185431",
+     "b": "1115816494122513",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup02",
+   "representative": "1048789364407302",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "Himalaya Wellness"
+   ]
+  },
+  {
+   "members": [
+    "1592313662161176",
+    "1858609855165049"
+   ],
+   "edges": [
+    {
+     "a": "1858609855165049",
+     "b": "1592313662161176",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup03",
+   "representative": "1858609855165049",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "Himalaya Wellness"
+   ]
+  },
+  {
+   "members": [
+    "1308070633511851",
+    "1886343558542559",
+    "915010216637917"
+   ],
+   "edges": [
+    {
+     "a": "915010216637917",
+     "b": "1886343558542559",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "915010216637917",
+     "b": "1308070633511851",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    },
+    {
+     "a": "1886343558542559",
+     "b": "1308070633511851",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup04",
+   "representative": "1308070633511851",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "MuscleBlaze"
+   ]
+  },
+  {
+   "members": [
+    "4471603566436669",
+    "4501524406843689"
+   ],
+   "edges": [
+    {
+     "a": "4471603566436669",
+     "b": "4501524406843689",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup05",
+   "representative": "4471603566436669",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "Himalaya Wellness"
+   ]
+  },
+  {
+   "members": [
+    "1126182349975686",
+    "27894864253480176"
+   ],
+   "edges": [
+    {
+     "a": "1126182349975686",
+     "b": "27894864253480176",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup06",
+   "representative": "1126182349975686",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "Himalaya Wellness"
+   ]
+  },
+  {
+   "members": [
+    "2521696481648312",
+    "4028706644097800"
+   ],
+   "edges": [
+    {
+     "a": "2521696481648312",
+     "b": "4028706644097800",
+     "exact_sha256": true,
+     "dhash_distance": 0
+    }
+   ],
+   "kind": "exact",
+   "group_id": "dup07",
+   "representative": "2521696481648312",
+   "decision": "auto: best original by quality",
+   "keep_all": false,
+   "brands": [
+    "Himalaya Wellness"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "dataset": "data/processed/validated_dataset.csv",
+ "dataset_sha256": "398567d57f2e2c47e64b28806cabe041e2d9758b6769b194ea98685f6479aa7f",
+ "frozen_at": "2026-11-13T16:13:52+0530",
+ "n_verified": 50,
+ "verified_per_brand": {
+  "Himalaya Wellness": 10,
+  "Kapiva": 10,
+  "Mamaearth": 10,
+  "MuscleBlaze": 10,
+  "OZiva": 10
+ },
+ "note": "50 VERIFIED; Himalaya slot 10 filled after polite retry"
+}

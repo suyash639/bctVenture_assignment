@@ -1,0 +1,44 @@
+[
+  {
+    "_note": "SYNTHETIC test fixture — not real ads, never served by the app",
+    "ad_id": "SYNTH-0001", "brand": "SyntheticBrandA", "advertiser": "SyntheticBrandA",
+    "advertiser_type": "brand_page", "ad_library_url": "https://example.invalid/ad/SYNTH-0001",
+    "status": "Active", "start_date": "1 Jan 2000", "end_date": null,
+    "body": "Synthetic body text with keyword alpha", "link_caption": null, "link_headline": null,
+    "cta": "Shop now", "cta_normalised": "Shop Now", "landing_url": null,
+    "format": "static", "image_type": "static", "image": "/synthetic/1.jpg",
+    "record_origin": "original", "replaces_ad_id": null,
+    "features": {
+      "width": 600, "height": 600, "aspect_ratio": 1, "orientation": "square",
+      "brightness": 0.5, "contrast": 0.2, "sharpness": 300, "colourfulness": 40,
+      "dominant_colours": [{ "hex": "#112233", "proportion": 0.6 }, { "hex": "#ffffff", "proportion": 0.4 }],
+      "colour_distribution": { "white": 0.4, "blue": 0.6 },
+      "text_density": 0.1, "text_position": "top", "ocr_text": "SYNTHETIC OCR beta",
+      "layout_category": "product_focused", "layout_reasons": ["synthetic"]
+    },
+    "cluster": { "cluster_id": 0, "is_noise": false, "distance_to_centroid": 0.1 }
+  },
+  {
+    "_note": "SYNTHETIC test fixture",
+    "ad_id": "SYNTH-0002", "brand": "SyntheticBrandB", "advertiser": "Creator with SyntheticBrandB",
+    "advertiser_type": "partnership", "ad_library_url": "https://example.invalid/ad/SYNTH-0002",
+    "status": null, "start_date": null, "end_date": null,
+    "body": null, "link_caption": null, "link_headline": null,
+    "cta": null, "cta_normalised": null, "landing_url": null,
+    "format": "carousel", "image_type": "static", "image": "/synthetic/2.jpg",
+    "record_origin": "replacement", "replaces_ad_id": "SYNTH-0099",
+    "features": null,
+    "cluster": { "cluster_id": -1, "is_noise": true, "distance_to_centroid": null }
+  },
+  {
+    "_note": "SYNTHETIC test fixture",
+    "ad_id": "SYNTH-0003", "brand": "SyntheticBrandA", "advertiser": "SyntheticBrandA",
+    "advertiser_type": "brand_page", "ad_library_url": "https://example.invalid/ad/SYNTH-0003",
+    "status": "Inactive", "start_date": "2 Jan 2000", "end_date": "3 Jan 2000",
+    "body": "Another synthetic body", "link_caption": null, "link_headline": null,
+    "cta": "Learn more", "cta_normalised": "Learn More", "landing_url": null,
+    "format": "video", "image_type": "video_thumbnail", "image": "/synthetic/3.jpg",
+    "record_origin": "original", "replaces_ad_id": null,
+    "features": null, "cluster": null
+  }
+]

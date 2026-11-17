@@ -1,0 +1,363 @@
+{
+ "reviewed_at": "2026-11-13T16:13:50+0530",
+ "reviewer": "lead orchestrator (visual inspection of labelled contact sheets)",
+ "reviews": {
+  "1521879793036986": {
+   "decision": "pass",
+   "reason": "Shilajit Gold whiteboard infographic; product, price and copy readable"
+  },
+  "3941084412853569": {
+   "decision": "pass",
+   "reason": "Wild Amla Juice bottle + carton packshot, clear"
+  },
+  "1161164159320391": {
+   "decision": "pass",
+   "reason": "Dia Free Juice offer creative with price; readable, generous whitespace"
+  },
+  "1595177445638920": {
+   "decision": "pass",
+   "reason": "Shilajit 'Skinny Fat, Fixed' before/after layout, readable"
+  },
+  "950705238104018": {
+   "decision": "pass",
+   "reason": "Shilajit Gold Resin hero with Marathi headline and price badge"
+  },
+  "1515373939961480": {
+   "decision": "pass",
+   "reason": "Shilajit essential minerals offer creative with price"
+  },
+  "1576111410507102": {
+   "decision": "pass",
+   "reason": "Liver Care Juice Hindi lifestyle creative with 21% off badge"
+  },
+  "2430800034011084": {
+   "decision": "pass",
+   "reason": "Liver Care Juice lifestyle (man drinking) with price per glass"
+  },
+  "2174897743309961": {
+   "decision": "pass",
+   "reason": "Digesti Care Juice educational timeline layout"
+  },
+  "1905612623466926": {
+   "decision": "pass",
+   "reason": "Cholest Fit Juice ingredient flat-lay with monthly price"
+  },
+  "4554714978140543": {
+   "decision": "pass",
+   "reason": "Bharti Singh testimonial-style creative with ACV Moringa product"
+  },
+  "1778699290118107": {
+   "decision": "pass",
+   "reason": "ACV Moringa effervescent tube packshot with splash"
+  },
+  "1064050913211179": {
+   "decision": "reject",
+   "reason": "video poster is a talking-head frame with a subtitle; product not shown, does not represent the full ad"
+  },
+  "1814901126595057": {
+   "decision": "pass",
+   "reason": "Glutathione educational ingredient layout, readable"
+  },
+  "1096187009418131": {
+   "decision": "pass",
+   "reason": "Collagen / Matcha / Vitamin E range packshot"
+  },
+  "1690263575996817": {
+   "decision": "pass",
+   "reason": "ACV Moringa packshot (same creative as 1778699290118107; handled by duplicate check)"
+  },
+  "3256740111180462": {
+   "decision": "pass",
+   "reason": "Clean Whey pack with chocolate cubes, clear"
+  },
+  "1575470834177468": {
+   "decision": "pass",
+   "reason": "Multani Mitti face wash catalogue-style packshot; genuine creative of this ad"
+  },
+  "1297573992514723": {
+   "decision": "pass",
+   "reason": "Bye Bye Blemishes serum catalogue-style packshot"
+  },
+  "1756705248927160": {
+   "decision": "pass",
+   "reason": "Anti-dandruff shampoo problem/solution creative with free-conditioner offer"
+  },
+  "984803553943986": {
+   "decision": "pass",
+   "reason": "Long-stay lipstick catalogue-style packshot"
+  },
+  "1166813642586560": {
+   "decision": "pass",
+   "reason": "Rice face wash 'Glass Skin Glow' styled creative, readable"
+  },
+  "962201073595416": {
+   "decision": "pass",
+   "reason": "Lipstick with colour swatch, clear"
+  },
+  "1416324700465227": {
+   "decision": "pass",
+   "reason": "Baby DermaSoft body lotion creative with headline"
+  },
+  "1723845068824942": {
+   "decision": "pass",
+   "reason": "Tea tree anti-dandruff shampoo creative, readable"
+  },
+  "2280990806062372": {
+   "decision": "pass",
+   "reason": "Tea tree shampoo creative (shared creative; duplicate check decides)"
+  },
+  "1858609855165049": {
+   "decision": "pass",
+   "reason": "'Dandruff Control with Tea Tree' outdoor scene creative, readable"
+  },
+  "1048789364407302": {
+   "decision": "pass",
+   "reason": "Tea tree shampoo creative (shared creative)"
+  },
+  "1983600392299552": {
+   "decision": "pass",
+   "reason": "Tea tree shampoo creative (shared creative)"
+  },
+  "1620125006185431": {
+   "decision": "pass",
+   "reason": "Tea tree shampoo creative (shared creative)"
+  },
+  "1127418319612582": {
+   "decision": "pass",
+   "reason": "Hydrating aloe vera face wash twin packshot"
+  },
+  "1598307748623554": {
+   "decision": "pass",
+   "reason": "'Break the hair fall cycle' creative with comb and product"
+  },
+  "1367478492121558": {
+   "decision": "pass",
+   "reason": "Bhringaraja anti-hair-fall shampoo with model, readable"
+  },
+  "915010216637917": {
+   "decision": "pass",
+   "reason": "'From reps to recovery' fish oil + MB-Vite combo with offer price"
+  },
+  "1886343558542559": {
+   "decision": "pass",
+   "reason": "same creative as 915010216637917 (duplicate check decides)"
+  },
+  "1308070633511851": {
+   "decision": "pass",
+   "reason": "same creative as 915010216637917 (duplicate check decides)"
+  },
+  "3842344959313280": {
+   "decision": "pass",
+   "reason": "Biozyme 5-in-1 multivitamin with deal price, readable"
+  },
+  "1302729857652675": {
+   "decision": "pass",
+   "reason": "Fish oil 37% off creative, readable"
+  },
+  "1420351880207698": {
+   "decision": "reject",
+   "reason": "not a brand creative: IHG hotel ad"
+  },
+  "1929162257703498": {
+   "decision": "reject",
+   "reason": "not a brand creative: HyugaLife reseller ad (GNC whey)"
+  },
+  "1474167550428125": {
+   "decision": "reject",
+   "reason": "not a brand creative: Ziva retirement-community ad"
+  },
+  "1743457663429642": {
+   "decision": "reject",
+   "reason": "not a brand creative: Nykaa ad for Palmer's"
+  },
+  "3326676907721431": {
+   "decision": "reject",
+   "reason": "not a brand creative: Nykaa ad for Palmer's"
+  },
+  "2119943695297738": {
+   "decision": "reject",
+   "reason": "not a brand creative: Nykaa ad for Kraftpro hair clips"
+  },
+  "4080202645605794": {
+   "decision": "reject",
+   "reason": "not a brand creative: blinkit ad for Plum face wash"
+  },
+  "1951875575774936": {
+   "decision": "reject",
+   "reason": "not a brand creative: Snapmint ad (iPhone)"
+  },
+  "1764651081440717": {
+   "decision": "reject",
+   "reason": "not a brand creative: Nykaa Man ad (Paco Rabanne)"
+  },
+  "1289012628945561": {
+   "decision": "reject",
+   "reason": "not a brand creative: HealthKart ad (MuscleBlaze product, reseller advertiser)"
+  },
+  "1116388987911414": {
+   "decision": "reject",
+   "reason": "not a brand creative: Snapmint ad (apparel)"
+  },
+  "881696651677163": {
+   "decision": "reject",
+   "reason": "not a brand creative: Nykaa Man ad (Paco Rabanne)"
+  },
+  "27068411412827135": {
+   "decision": "pass",
+   "reason": "Biozyme Whey PR 'Why manage two supplements' claim layout; matches card copy (30g protein + 3g creatine)"
+  },
+  "1021005457107800": {
+   "decision": "pass",
+   "reason": "Biozyme Whey PR 'Recovery meets Performance' with shaker; matches card copy"
+  },
+  "1618366923229535": {
+   "decision": "pass",
+   "reason": "Yeast Protein 'Worth the hype' pack shot; matches card copy (yeast protein 26g)"
+  },
+  "1807178123387779": {
+   "decision": "pass",
+   "reason": "Iso Clear Whey sachet lifestyle (tennis court); matches card copy (15g isolate)"
+  },
+  "4699175186980657": {
+   "decision": "pass",
+   "reason": "'Your gut feeling' whey lifestyle with product; matches card copy (digestibility)"
+  },
+  "1616514576500822": {
+   "decision": "pass",
+   "reason": "'Light feeling' whey lifestyle with product; matches card copy"
+  },
+  "629623256117440": {
+   "decision": "pass",
+   "reason": "MB-Vite + Fish Oil combo \u20b9599 landscape offer; matches card copy; different creative from 'From reps to recovery'"
+  },
+  "1072628348484263": {
+   "decision": "pass",
+   "reason": "Creatine Chews launch lifestyle (MB-branded chew in hand); matches card copy"
+  },
+  "1669408884833124": {
+   "decision": "pass",
+   "reason": "ACV Moringa 'One sip to craving control' product creative"
+  },
+  "1650105090459669": {
+   "decision": "pass",
+   "reason": "Glutathione 'dull-looking skin' testimonial-style landscape with stats"
+  },
+  "1845266559964841": {
+   "decision": "pass",
+   "reason": "Ceramides + Collagen 'Hydrate your skin from within' with stats"
+  },
+  "1781776573039288": {
+   "decision": "pass",
+   "reason": "Glutathione 33% off ingredient creative"
+  },
+  "1074001845351229": {
+   "decision": "pass",
+   "reason": "Collagen + Biotin packshot with ingredients (different creative from 1096187009418131)"
+  },
+  "1433264322272973": {
+   "decision": "pass",
+   "reason": "Plant protein 'What I ordered / What I got' lifestyle comparison"
+  },
+  "1665968165038774": {
+   "decision": "pass",
+   "reason": "ACV Moringa 'Craving control' 30% off offer"
+  },
+  "4441957612749875": {
+   "decision": "pass",
+   "reason": "Brightening serum before/after proof creative; small but readable"
+  },
+  "1992161091492402": {
+   "decision": "pass",
+   "reason": "Plant Protein Pro-Digest pack with chocolate splash"
+  },
+  "1128278273335557": {
+   "decision": "pass",
+   "reason": "'Beauty Buzz' acne product testimonial with Google rating"
+  },
+  "1407085544389845": {
+   "decision": "pass",
+   "reason": "ACV Moringa educational cycle diagram"
+  },
+  "1849428506071990": {
+   "decision": "pass",
+   "reason": "ACV Moringa tube with green apples packshot"
+  },
+  "1641142944454615": {
+   "decision": "reject",
+   "reason": "product and brand not visible in frame (apple + 'This is your skin'); unsuitable for product-level visual analysis"
+  },
+  "1101328145809077": {
+   "decision": "pass",
+   "reason": "Multani Mitti Oil Balance face wash 'Balance excess oil' creative"
+  },
+  "1024439270557511": {
+   "decision": "pass",
+   "reason": "Rice face wash 35% off lifestyle with Hinglish callouts"
+  },
+  "1585644086536653": {
+   "decision": "pass",
+   "reason": "Face wash range 'Splash your way to radiant skin' 35% off banner"
+  },
+  "1127350820190817": {
+   "decision": "pass",
+   "reason": "Glow Serum BB Cream catalogue-style packshot"
+  },
+  "4471603566436669": {
+   "decision": "pass",
+   "reason": "Tea tree shampoo 'Shop now' arrow creative on light background; distinct composition"
+  },
+  "1592313662161176": {
+   "decision": "pass",
+   "reason": "'Dandruff Control with Tea Tree' (byte-identical to 1858609855165049; duplicate check decides)"
+  },
+  "1013415108457751": {
+   "decision": "pass",
+   "reason": "'Natural relief from itchy scalp' tea tree shampoo with oil/aloe props"
+  },
+  "1115816494122513": {
+   "decision": "pass",
+   "reason": "Tea tree water-splash creative (byte-identical to 1048789364407302; duplicate check decides)"
+  },
+  "2129333221028958": {
+   "decision": "pass",
+   "reason": "Anti-dandruff tea tree shampoo with model, '100% free from dandruff'"
+  },
+  "2215471982684457": {
+   "decision": "pass",
+   "reason": "Bhringaraja anti-hair-fall 'More sweat. More washes.' creative"
+  },
+  "2112804086326796": {
+   "decision": "pass",
+   "reason": "Lifestyle model creative 'Up to 96% hair fall reduction effectively!' with Bhringaraja shampoo"
+  },
+  "1126182349975686": {
+   "decision": "pass",
+   "reason": "Bhringaraja anti-hair-fall shampoo packshot with flowers, 'Reduce hair fall with Bhringaraja!'"
+  },
+  "2521696481648312": {
+   "decision": "pass",
+   "reason": "Anti-dandruff educational benefit layout (cleanses, soothes, gentle, no toxins) with scalp wash photo"
+  },
+  "1096181883231252": {
+   "decision": "pass",
+   "reason": "'Remove 100% dandruff naturally' tea tree shampoo on water with aloe slices"
+  },
+  "1081597870910005": {
+   "decision": "pass",
+   "reason": "'Not more products. Just the right care.' hair-fall shampoo with hair close-up"
+  },
+  "27894864253480176": {
+   "decision": "pass",
+   "reason": "Bhringaraja packshot (byte-identical to 1126182349975686; duplicate check decides)"
+  },
+  "4028706644097800": {
+   "decision": "pass",
+   "reason": "Anti-dandruff benefit layout (byte-identical to 2521696481648312; duplicate check decides)"
+  },
+  "4501524406843689": {
+   "decision": "pass",
+   "reason": "Tea tree 'Shop now' arrow creative (byte-identical to accepted 4471603566436669; duplicate check decides)"
+  }
+ },
+ "duplicate_decisions": {}
+}

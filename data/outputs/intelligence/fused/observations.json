@@ -1,0 +1,3165 @@
+{
+ "meta": {
+  "n_records": 50,
+  "brands": [
+   "Himalaya Wellness",
+   "Kapiva",
+   "Mamaearth",
+   "MuscleBlaze",
+   "OZiva"
+  ],
+  "n_with_embeddings": 50,
+  "n_assigned": 50,
+  "assignment_ids_not_in_bundle": [],
+  "config": {
+   "min_n": 3,
+   "low_text_threshold": 0.05,
+   "high_text_threshold": 0.15,
+   "white_dominant_threshold": 0.4,
+   "low_readability_ratio": 0.5,
+   "top_cross_brand_pairs": 5,
+   "top_distinguishing_features": 3,
+   "n_representatives": 3,
+   "small_sample_n": 10
+  },
+  "n_observations": 90,
+  "n_insufficient_data": 0
+ },
+ "observations": [
+  {
+   "observation_id": "layout:Himalaya Wellness:lifestyle",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "lifestyle is the most frequent layout label for Himalaya Wellness: 5 of 10 creatives (50.0%), vs 34.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.5,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.34
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1367478492121558",
+    "2112804086326796",
+    "2129333221028958",
+    "4471603566436669"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "educational": 1,
+     "lifestyle": 5,
+     "product_focused": 3,
+     "unknown": 1
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout:Kapiva:product_focused",
+   "scope": "brand:Kapiva",
+   "statement": "product_focused is the most frequent layout label for Kapiva: 6 of 10 creatives (60.0%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1595177445638920",
+    "1905612623466926",
+    "3941084412853569",
+    "950705238104018"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "educational": 1,
+     "lifestyle": 3,
+     "product_focused": 6
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout:Mamaearth:product_focused",
+   "scope": "brand:Mamaearth",
+   "statement": "product_focused is the most frequent layout label for Mamaearth: 9 of 10 creatives (90.0%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.9,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1585644086536653",
+    "962201073595416"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "lifestyle": 1,
+     "product_focused": 9
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout:MuscleBlaze:lifestyle",
+   "scope": "brand:MuscleBlaze",
+   "statement": "lifestyle is the most frequent layout label for MuscleBlaze: 6 of 10 creatives (60.0%), vs 34.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.34
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "educational": 1,
+     "lifestyle": 6,
+     "offer_heavy": 1,
+     "product_focused": 2
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout:OZiva:product_focused",
+   "scope": "brand:OZiva",
+   "statement": "product_focused is the most frequent layout label for OZiva: 7 of 10 creatives (70.0%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.7,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "1845266559964841",
+    "3256740111180462"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "lifestyle": 2,
+     "offer_heavy": 1,
+     "product_focused": 7
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:0:product_focused",
+   "scope": "cluster:0",
+   "statement": "product_focused is the most frequent layout label for cluster 0: 6 of 7 creatives (85.7%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.857143,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "lifestyle": 1,
+     "product_focused": 6
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:1:product_focused",
+   "scope": "cluster:1",
+   "statement": "product_focused is the most frequent layout label for cluster 1: 4 of 5 creatives (80.0%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.8,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "lifestyle": 1,
+     "product_focused": 4
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:2:product_focused",
+   "scope": "cluster:2",
+   "statement": "product_focused is the most frequent layout label for cluster 2: 4 of 6 creatives (66.7%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.666667,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 6,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1845266559964841"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=6); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "lifestyle": 1,
+     "offer_heavy": 1,
+     "product_focused": 4
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:3:lifestyle",
+   "scope": "cluster:3",
+   "statement": "lifestyle is the most frequent layout label for cluster 3: 2 of 5 creatives (40.0%), vs 34.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.4,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.34
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "2430800034011084"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "educational": 1,
+     "lifestyle": 2,
+     "product_focused": 2
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:4:lifestyle",
+   "scope": "cluster:4",
+   "statement": "lifestyle is the most frequent layout label for cluster 4: 6 of 10 creatives (60.0%), vs 34.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.34
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1367478492121558",
+    "1756705248927160",
+    "2112804086326796",
+    "2129333221028958",
+    "4471603566436669"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "educational": 1,
+     "lifestyle": 6,
+     "product_focused": 2,
+     "unknown": 1
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:5:product_focused",
+   "scope": "cluster:5",
+   "statement": "product_focused is the most frequent layout label for cluster 5: 7 of 7 creatives (100.0%), vs 54.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 1.0,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.54
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "product_focused": 7
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_cluster:6:lifestyle",
+   "scope": "cluster:6",
+   "statement": "lifestyle is the most frequent layout label for cluster 6: 6 of 10 creatives (60.0%), vs 34.0% across the dataset.",
+   "metric": "layout_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.34
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "count of layout_category per group; share = count / records with a label",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "educational": 1,
+     "lifestyle": 6,
+     "offer_heavy": 1,
+     "product_focused": 2
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "layout_coverage:dataset",
+   "scope": "dataset",
+   "statement": "49 of 50 labelled creatives (98.0%) received a non-unknown layout label with recorded rule evidence.",
+   "metric": "layout_rule_coverage",
+   "value": 0.98,
+   "value_format": "pct",
+   "comparison": null,
+   "n": 50,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1021005457107800",
+    "1024439270557511",
+    "1048789364407302",
+    "1074001845351229",
+    "1096187009418131",
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1161164159320391",
+    "1166813642586560",
+    "1297573992514723",
+    "1302729857652675",
+    "1308070633511851",
+    "1367478492121558",
+    "1416324700465227",
+    "1515373939961480",
+    "1521879793036986",
+    "1575470834177468",
+    "1576111410507102",
+    "1585644086536653",
+    "1595177445638920",
+    "1616514576500822",
+    "1618366923229535",
+    "1650105090459669",
+    "1669408884833124",
+    "1690263575996817",
+    "1756705248927160",
+    "1781776573039288",
+    "1807178123387779",
+    "1814901126595057",
+    "1845266559964841",
+    "1858609855165049",
+    "1905612623466926",
+    "2112804086326796",
+    "2129333221028958",
+    "2174897743309961",
+    "2215471982684457",
+    "2430800034011084",
+    "27068411412827135",
+    "3256740111180462",
+    "3842344959313280",
+    "3941084412853569",
+    "4471603566436669",
+    "4554714978140543",
+    "4699175186980657",
+    "629623256117440",
+    "950705238104018",
+    "962201073595416"
+   ],
+   "method": "share of records whose layout_category != unknown and layout_reasons is non-empty",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Layout labels come from a rule-based heuristic (src/vision/layout_classifier.py) that has not been validated against human labels."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cta:Himalaya Wellness:Shop Now",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "Shop Now is the most frequent CTA (case-normalised) for Himalaya Wellness: 9 of 10 creatives (90.0%), vs 86.0% across the dataset.",
+   "metric": "cta_share",
+   "value": 0.9,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.86
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "case/whitespace-normalised CTA text from the live card; share per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "No CTA": 1,
+     "Shop Now": 9
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "cta:Kapiva:Shop Now",
+   "scope": "brand:Kapiva",
+   "statement": "Shop Now is the most frequent CTA (case-normalised) for Kapiva: 6 of 10 creatives (60.0%), vs 86.0% across the dataset.",
+   "metric": "cta_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.86
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1595177445638920",
+    "3941084412853569",
+    "950705238104018"
+   ],
+   "method": "case/whitespace-normalised CTA text from the live card; share per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "Buy Now": 3,
+     "No CTA": 1,
+     "Shop Now": 6
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "cta:Mamaearth:Shop Now",
+   "scope": "brand:Mamaearth",
+   "statement": "Shop Now is the most frequent CTA (case-normalised) for Mamaearth: 10 of 10 creatives (100.0%), vs 86.0% across the dataset.",
+   "metric": "cta_share",
+   "value": 1.0,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.86
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1585644086536653",
+    "1756705248927160",
+    "962201073595416"
+   ],
+   "method": "case/whitespace-normalised CTA text from the live card; share per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "Shop Now": 10
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "cta:MuscleBlaze:Shop Now",
+   "scope": "brand:MuscleBlaze",
+   "statement": "Shop Now is the most frequent CTA (case-normalised) for MuscleBlaze: 10 of 10 creatives (100.0%), vs 86.0% across the dataset.",
+   "metric": "cta_share",
+   "value": 1.0,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.86
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "case/whitespace-normalised CTA text from the live card; share per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "Shop Now": 10
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "cta:OZiva:Shop Now",
+   "scope": "brand:OZiva",
+   "statement": "Shop Now is the most frequent CTA (case-normalised) for OZiva: 8 of 10 creatives (80.0%), vs 86.0% across the dataset.",
+   "metric": "cta_share",
+   "value": 0.8,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.86
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1650105090459669",
+    "1669408884833124",
+    "1781776573039288",
+    "1814901126595057",
+    "1845266559964841",
+    "4554714978140543"
+   ],
+   "method": "case/whitespace-normalised CTA text from the live card; share per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "Order Now": 2,
+     "Shop Now": 8
+    },
+    "n_missing": 0
+   }
+  },
+  {
+   "observation_id": "text_density_median:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "Median OCR text density for Himalaya Wellness is 0.120 (IQR 0.101–0.157, n=10), vs a dataset median of 0.129.",
+   "metric": "text_density_median",
+   "value": 0.1205,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset median",
+    "value": 0.1291
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "median and 25th/75th percentiles of text_density (union area of OCR text boxes / image area)",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "q1": 0.101425,
+    "q3": 0.1568
+   }
+  },
+  {
+   "observation_id": "text_density_high:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "3 of 10 Himalaya Wellness creatives (30.0%) are high-text (density ≥ 0.15); 0 are low-text (< 0.05). Dataset high-text share: 36.0%.",
+   "metric": "high_text_share",
+   "value": 0.3,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset high-text share",
+    "value": 0.36
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1048789364407302",
+    "1858609855165049",
+    "2215471982684457"
+   ],
+   "method": "count of text_density >= high threshold / brand records",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "high_text_ad_ids": [
+     "1048789364407302",
+     "1858609855165049",
+     "2215471982684457"
+    ],
+    "low_text_ad_ids": [],
+    "thresholds": {
+     "high": 0.15,
+     "low": 0.05
+    }
+   }
+  },
+  {
+   "observation_id": "text_density_median:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "Median OCR text density for Kapiva is 0.132 (IQR 0.086–0.158, n=10), vs a dataset median of 0.129.",
+   "metric": "text_density_median",
+   "value": 0.13225,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset median",
+    "value": 0.1291
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018"
+   ],
+   "method": "median and 25th/75th percentiles of text_density (union area of OCR text boxes / image area)",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "q1": 0.08615,
+    "q3": 0.157625
+   }
+  },
+  {
+   "observation_id": "text_density_high:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "4 of 10 Kapiva creatives (40.0%) are high-text (density ≥ 0.15); 0 are low-text (< 0.05). Dataset high-text share: 36.0%.",
+   "metric": "high_text_share",
+   "value": 0.4,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset high-text share",
+    "value": 0.36
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "2174897743309961"
+   ],
+   "method": "count of text_density >= high threshold / brand records",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "high_text_ad_ids": [
+     "1161164159320391",
+     "1515373939961480",
+     "1521879793036986",
+     "2174897743309961"
+    ],
+    "low_text_ad_ids": [],
+    "thresholds": {
+     "high": 0.15,
+     "low": 0.05
+    }
+   }
+  },
+  {
+   "observation_id": "text_density_median:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "Median OCR text density for Mamaearth is 0.094 (IQR 0.049–0.171, n=10), vs a dataset median of 0.129.",
+   "metric": "text_density_median",
+   "value": 0.09395,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset median",
+    "value": 0.1291
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1585644086536653",
+    "1756705248927160",
+    "962201073595416"
+   ],
+   "method": "median and 25th/75th percentiles of text_density (union area of OCR text boxes / image area)",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "q1": 0.049275,
+    "q3": 0.171325
+   }
+  },
+  {
+   "observation_id": "text_density_high:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "3 of 10 Mamaearth creatives (30.0%) are high-text (density ≥ 0.15); 3 are low-text (< 0.05). Dataset high-text share: 36.0%.",
+   "metric": "high_text_share",
+   "value": 0.3,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset high-text share",
+    "value": 0.36
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653"
+   ],
+   "method": "count of text_density >= high threshold / brand records",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "high_text_ad_ids": [
+     "1024439270557511",
+     "1166813642586560",
+     "1585644086536653"
+    ],
+    "low_text_ad_ids": [
+     "1127350820190817",
+     "1297573992514723",
+     "962201073595416"
+    ],
+    "thresholds": {
+     "high": 0.15,
+     "low": 0.05
+    }
+   }
+  },
+  {
+   "observation_id": "text_density_median:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "Median OCR text density for MuscleBlaze is 0.145 (IQR 0.111–0.152, n=10), vs a dataset median of 0.129.",
+   "metric": "text_density_median",
+   "value": 0.1446,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset median",
+    "value": 0.1291
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "median and 25th/75th percentiles of text_density (union area of OCR text boxes / image area)",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "q1": 0.110725,
+    "q3": 0.15245
+   }
+  },
+  {
+   "observation_id": "text_density_high:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "4 of 10 MuscleBlaze creatives (40.0%) are high-text (density ≥ 0.15); 0 are low-text (< 0.05). Dataset high-text share: 36.0%.",
+   "metric": "high_text_share",
+   "value": 0.4,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset high-text share",
+    "value": 0.36
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1618366923229535",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657"
+   ],
+   "method": "count of text_density >= high threshold / brand records",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "high_text_ad_ids": [
+     "1618366923229535",
+     "27068411412827135",
+     "3842344959313280",
+     "4699175186980657"
+    ],
+    "low_text_ad_ids": [],
+    "thresholds": {
+     "high": 0.15,
+     "low": 0.05
+    }
+   }
+  },
+  {
+   "observation_id": "text_density_median:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "Median OCR text density for OZiva is 0.132 (IQR 0.108–0.169, n=10), vs a dataset median of 0.129.",
+   "metric": "text_density_median",
+   "value": 0.13225,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset median",
+    "value": 0.1291
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1650105090459669",
+    "1669408884833124",
+    "1690263575996817",
+    "1781776573039288",
+    "1814901126595057",
+    "1845266559964841",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "method": "median and 25th/75th percentiles of text_density (union area of OCR text boxes / image area)",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "q1": 0.108125,
+    "q3": 0.168775
+   }
+  },
+  {
+   "observation_id": "text_density_high:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "4 of 10 OZiva creatives (40.0%) are high-text (density ≥ 0.15); 2 are low-text (< 0.05). Dataset high-text share: 36.0%.",
+   "metric": "high_text_share",
+   "value": 0.4,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset high-text share",
+    "value": 0.36
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1650105090459669",
+    "1781776573039288",
+    "1814901126595057",
+    "1845266559964841"
+   ],
+   "method": "count of text_density >= high threshold / brand records",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "high_text_ad_ids": [
+     "1650105090459669",
+     "1781776573039288",
+     "1814901126595057",
+     "1845266559964841"
+    ],
+    "low_text_ad_ids": [
+     "1690263575996817",
+     "3256740111180462"
+    ],
+    "thresholds": {
+     "high": 0.15,
+     "low": 0.05
+    }
+   }
+  },
+  {
+   "observation_id": "colour_family:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "The largest chromatic colour family in Himalaya Wellness creatives is green, covering on average 21.8% of pixels (dataset average 9.3%).",
+   "metric": "mean_colour_family_share",
+   "value": 0.21777,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset mean share of the same family",
+    "value": 0.09299400000000001
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "2129333221028958",
+    "4471603566436669"
+   ],
+   "method": "mean over records of summed colour_distribution buckets per family",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "mean_family_shares": {
+     "red_pink": 0.01951,
+     "orange_yellow": 0.15397,
+     "green": 0.21777000000000002,
+     "blue_cyan": 0.10332999999999999,
+     "violet": 1e-05,
+     "white": 0.27701,
+     "dark_grey": 0.22835999999999998
+    }
+   }
+  },
+  {
+   "observation_id": "white_dominant:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "2 of 10 Himalaya Wellness creatives (20.0%) are white-dominant (≥ 40.0% near-white pixels), vs 52.0% across the dataset.",
+   "metric": "white_dominant_share",
+   "value": 0.2,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset white-dominant share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1127418319612582",
+    "4471603566436669"
+   ],
+   "method": "share of records with colour_distribution.white >= threshold",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "white_dominant_ad_ids": [
+     "1127418319612582",
+     "4471603566436669"
+    ]
+   }
+  },
+  {
+   "observation_id": "palette_consistency:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "Mean pairwise colour-distribution distance within Himalaya Wellness is 0.587 (0 = identical palettes, 1 = disjoint), vs 0.554 across all pairs in the dataset.",
+   "metric": "palette_distance_intra_brand",
+   "value": 0.586576,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean pairwise distance over all dataset pairs",
+    "value": 0.5544757551020408
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "mean total-variation distance between 15-bucket colour distributions",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "colour_family:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "The largest chromatic colour family in Kapiva creatives is orange_yellow, covering on average 8.8% of pixels (dataset average 14.7%).",
+   "metric": "mean_colour_family_share",
+   "value": 0.08823,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset mean share of the same family",
+    "value": 0.147378
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "950705238104018"
+   ],
+   "method": "mean over records of summed colour_distribution buckets per family",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "mean_family_shares": {
+     "red_pink": 0.01638,
+     "orange_yellow": 0.08823,
+     "green": 0.03685,
+     "blue_cyan": 0.01047,
+     "violet": 3.0000000000000004e-05,
+     "white": 0.56694,
+     "dark_grey": 0.28098999999999996
+    }
+   }
+  },
+  {
+   "observation_id": "white_dominant:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "8 of 10 Kapiva creatives (80.0%) are white-dominant (≥ 40.0% near-white pixels), vs 52.0% across the dataset.",
+   "metric": "white_dominant_share",
+   "value": 0.8,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset white-dominant share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569"
+   ],
+   "method": "share of records with colour_distribution.white >= threshold",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "white_dominant_ad_ids": [
+     "1161164159320391",
+     "1515373939961480",
+     "1521879793036986",
+     "1595177445638920",
+     "1905612623466926",
+     "2174897743309961",
+     "2430800034011084",
+     "3941084412853569"
+    ]
+   }
+  },
+  {
+   "observation_id": "palette_consistency:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "Mean pairwise colour-distribution distance within Kapiva is 0.360 (0 = identical palettes, 1 = disjoint), vs 0.554 across all pairs in the dataset.",
+   "metric": "palette_distance_intra_brand",
+   "value": 0.36009,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean pairwise distance over all dataset pairs",
+    "value": 0.5544757551020408
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018"
+   ],
+   "method": "mean total-variation distance between 15-bucket colour distributions",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "colour_family:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "The largest chromatic colour family in Mamaearth creatives is orange_yellow, covering on average 18.8% of pixels (dataset average 14.7%).",
+   "metric": "mean_colour_family_share",
+   "value": 0.18772,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset mean share of the same family",
+    "value": 0.147378
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1127350820190817",
+    "1166813642586560",
+    "1585644086536653",
+    "1756705248927160"
+   ],
+   "method": "mean over records of summed colour_distribution buckets per family",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "mean_family_shares": {
+     "red_pink": 0.05573999999999999,
+     "orange_yellow": 0.18772,
+     "green": 0.00526,
+     "blue_cyan": 0.013320000000000002,
+     "violet": 1e-05,
+     "white": 0.59391,
+     "dark_grey": 0.14403
+    }
+   }
+  },
+  {
+   "observation_id": "white_dominant:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "6 of 10 Mamaearth creatives (60.0%) are white-dominant (≥ 40.0% near-white pixels), vs 52.0% across the dataset.",
+   "metric": "white_dominant_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset white-dominant share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "method": "share of records with colour_distribution.white >= threshold",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "white_dominant_ad_ids": [
+     "1101328145809077",
+     "1127350820190817",
+     "1297573992514723",
+     "1416324700465227",
+     "1575470834177468",
+     "962201073595416"
+    ]
+   }
+  },
+  {
+   "observation_id": "palette_consistency:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "Mean pairwise colour-distribution distance within Mamaearth is 0.477 (0 = identical palettes, 1 = disjoint), vs 0.554 across all pairs in the dataset.",
+   "metric": "palette_distance_intra_brand",
+   "value": 0.476699,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean pairwise distance over all dataset pairs",
+    "value": 0.5544757551020408
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1585644086536653",
+    "1756705248927160",
+    "962201073595416"
+   ],
+   "method": "mean total-variation distance between 15-bucket colour distributions",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "colour_family:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "The largest chromatic colour family in MuscleBlaze creatives is blue_cyan, covering on average 9.8% of pixels (dataset average 4.6%).",
+   "metric": "mean_colour_family_share",
+   "value": 0.09756,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset mean share of the same family",
+    "value": 0.046288
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1302729857652675",
+    "1308070633511851",
+    "1618366923229535",
+    "1807178123387779"
+   ],
+   "method": "mean over records of summed colour_distribution buckets per family",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "mean_family_shares": {
+     "red_pink": 0.012289999999999999,
+     "orange_yellow": 0.09722000000000001,
+     "green": 0.02105,
+     "blue_cyan": 0.09756000000000001,
+     "violet": 0.00020999999999999998,
+     "white": 0.28067000000000003,
+     "dark_grey": 0.4909199999999999
+    }
+   }
+  },
+  {
+   "observation_id": "white_dominant:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "4 of 10 MuscleBlaze creatives (40.0%) are white-dominant (≥ 40.0% near-white pixels), vs 52.0% across the dataset.",
+   "metric": "white_dominant_share",
+   "value": 0.4,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset white-dominant share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657"
+   ],
+   "method": "share of records with colour_distribution.white >= threshold",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "white_dominant_ad_ids": [
+     "1021005457107800",
+     "27068411412827135",
+     "3842344959313280",
+     "4699175186980657"
+    ]
+   }
+  },
+  {
+   "observation_id": "palette_consistency:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "Mean pairwise colour-distribution distance within MuscleBlaze is 0.547 (0 = identical palettes, 1 = disjoint), vs 0.554 across all pairs in the dataset.",
+   "metric": "palette_distance_intra_brand",
+   "value": 0.546536,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean pairwise distance over all dataset pairs",
+    "value": 0.5544757551020408
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "mean total-variation distance between 15-bucket colour distributions",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "colour_family:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "The largest chromatic colour family in OZiva creatives is orange_yellow, covering on average 21.0% of pixels (dataset average 14.7%).",
+   "metric": "mean_colour_family_share",
+   "value": 0.20975,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset mean share of the same family",
+    "value": 0.147378
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1650105090459669",
+    "1690263575996817",
+    "1781776573039288",
+    "1845266559964841",
+    "3256740111180462"
+   ],
+   "method": "mean over records of summed colour_distribution buckets per family",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "mean_family_shares": {
+     "red_pink": 0.04856,
+     "orange_yellow": 0.20974999999999996,
+     "green": 0.18404000000000004,
+     "blue_cyan": 0.0067599999999999995,
+     "violet": 0.00545,
+     "white": 0.43466999999999995,
+     "dark_grey": 0.11074999999999999
+    }
+   }
+  },
+  {
+   "observation_id": "white_dominant:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "6 of 10 OZiva creatives (60.0%) are white-dominant (≥ 40.0% near-white pixels), vs 52.0% across the dataset.",
+   "metric": "white_dominant_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset white-dominant share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1650105090459669",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462"
+   ],
+   "method": "share of records with colour_distribution.white >= threshold",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {
+    "white_dominant_ad_ids": [
+     "1074001845351229",
+     "1096187009418131",
+     "1650105090459669",
+     "1690263575996817",
+     "1814901126595057",
+     "3256740111180462"
+    ]
+   }
+  },
+  {
+   "observation_id": "palette_consistency:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "Mean pairwise colour-distribution distance within OZiva is 0.568 (0 = identical palettes, 1 = disjoint), vs 0.554 across all pairs in the dataset.",
+   "metric": "palette_distance_intra_brand",
+   "value": 0.56772,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean pairwise distance over all dataset pairs",
+    "value": 0.5544757551020408
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1650105090459669",
+    "1669408884833124",
+    "1690263575996817",
+    "1781776573039288",
+    "1814901126595057",
+    "1845266559964841",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "method": "mean total-variation distance between 15-bucket colour distributions",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Colour shares are pixel proportions in 15 HSV buckets; backgrounds and product packaging both contribute."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "orientation:Himalaya Wellness:square",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "square is the most frequent orientation for Himalaya Wellness: 6 of 10 creatives (60.0%), vs 52.0% across the dataset.",
+   "metric": "orientation_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1127418319612582",
+    "1858609855165049",
+    "2112804086326796",
+    "4471603566436669"
+   ],
+   "method": "count of orientation (square if |w/h-1|<=5%) per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "portrait": 4,
+     "square": 6
+    },
+    "n_missing": 0,
+    "median_aspect_ratio": 1.0
+   }
+  },
+  {
+   "observation_id": "orientation:Kapiva:square",
+   "scope": "brand:Kapiva",
+   "statement": "square is the most frequent orientation for Kapiva: 6 of 10 creatives (60.0%), vs 52.0% across the dataset.",
+   "metric": "orientation_share",
+   "value": 0.6,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "3941084412853569",
+    "950705238104018"
+   ],
+   "method": "count of orientation (square if |w/h-1|<=5%) per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "portrait": 4,
+     "square": 6
+    },
+    "n_missing": 0,
+    "median_aspect_ratio": 1.0
+   }
+  },
+  {
+   "observation_id": "orientation:Mamaearth:square",
+   "scope": "brand:Mamaearth",
+   "statement": "square is the most frequent orientation for Mamaearth: 8 of 10 creatives (80.0%), vs 52.0% across the dataset.",
+   "metric": "orientation_share",
+   "value": 0.8,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1756705248927160",
+    "962201073595416"
+   ],
+   "method": "count of orientation (square if |w/h-1|<=5%) per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "landscape": 1,
+     "portrait": 1,
+     "square": 8
+    },
+    "n_missing": 0,
+    "median_aspect_ratio": 1.0
+   }
+  },
+  {
+   "observation_id": "orientation:MuscleBlaze:portrait",
+   "scope": "brand:MuscleBlaze",
+   "statement": "portrait is the most frequent orientation for MuscleBlaze: 8 of 10 creatives (80.0%), vs 42.0% across the dataset.",
+   "metric": "orientation_share",
+   "value": 0.8,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.42
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "4699175186980657"
+   ],
+   "method": "count of orientation (square if |w/h-1|<=5%) per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "landscape": 1,
+     "portrait": 8,
+     "square": 1
+    },
+    "n_missing": 0,
+    "median_aspect_ratio": 0.8
+   }
+  },
+  {
+   "observation_id": "orientation:OZiva:square",
+   "scope": "brand:OZiva",
+   "statement": "square is the most frequent orientation for OZiva: 5 of 10 creatives (50.0%), vs 52.0% across the dataset.",
+   "metric": "orientation_share",
+   "value": 0.5,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share of the same category",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462"
+   ],
+   "method": "count of orientation (square if |w/h-1|<=5%) per brand",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {
+    "distribution": {
+     "landscape": 1,
+     "portrait": 4,
+     "square": 5
+    },
+    "n_missing": 0,
+    "median_aspect_ratio": 1.0
+   }
+  },
+  {
+   "observation_id": "clip_consistency:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "Mean CLIP cosine similarity between pairs of Himalaya Wellness creatives is 0.618 (sd 0.086, 45 pairs), vs 0.389 between Himalaya Wellness and other brands' creatives (400 pairs).",
+   "metric": "clip_mean_intra_brand_cosine",
+   "value": 0.618486,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean cosine to other brands' creatives",
+    "value": 0.389169460954062
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1127418319612582",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "mean pairwise cosine of L2-normalised CLIP image embeddings",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {
+    "intra_sd": 0.08588477138063869,
+    "inter_sd": 0.08756124670530357,
+    "n_intra_pairs": 45,
+    "n_inter_pairs": 400
+   }
+  },
+  {
+   "observation_id": "clip_consistency:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "Mean CLIP cosine similarity between pairs of Kapiva creatives is 0.395 (sd 0.091, 45 pairs), vs 0.361 between Kapiva and other brands' creatives (400 pairs).",
+   "metric": "clip_mean_intra_brand_cosine",
+   "value": 0.395272,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean cosine to other brands' creatives",
+    "value": 0.3606985192568808
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569",
+    "950705238104018"
+   ],
+   "method": "mean pairwise cosine of L2-normalised CLIP image embeddings",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {
+    "intra_sd": 0.09061651806764986,
+    "inter_sd": 0.07772290326931448,
+    "n_intra_pairs": 45,
+    "n_inter_pairs": 400
+   }
+  },
+  {
+   "observation_id": "clip_consistency:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "Mean CLIP cosine similarity between pairs of Mamaearth creatives is 0.454 (sd 0.106, 45 pairs), vs 0.356 between Mamaearth and other brands' creatives (400 pairs).",
+   "metric": "clip_mean_intra_brand_cosine",
+   "value": 0.453694,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean cosine to other brands' creatives",
+    "value": 0.35566854957860317
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1101328145809077",
+    "1127350820190817",
+    "1166813642586560",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "1585644086536653",
+    "1756705248927160",
+    "962201073595416"
+   ],
+   "method": "mean pairwise cosine of L2-normalised CLIP image embeddings",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {
+    "intra_sd": 0.10577054563277272,
+    "inter_sd": 0.0933250675401399,
+    "n_intra_pairs": 45,
+    "n_inter_pairs": 400
+   }
+  },
+  {
+   "observation_id": "clip_consistency:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "Mean CLIP cosine similarity between pairs of MuscleBlaze creatives is 0.483 (sd 0.131, 45 pairs), vs 0.330 between MuscleBlaze and other brands' creatives (400 pairs).",
+   "metric": "clip_mean_intra_brand_cosine",
+   "value": 0.482846,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean cosine to other brands' creatives",
+    "value": 0.32976632468654743
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "mean pairwise cosine of L2-normalised CLIP image embeddings",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {
+    "intra_sd": 0.130692990319719,
+    "inter_sd": 0.0845222647335191,
+    "n_intra_pairs": 45,
+    "n_inter_pairs": 400
+   }
+  },
+  {
+   "observation_id": "clip_consistency:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "Mean CLIP cosine similarity between pairs of OZiva creatives is 0.478 (sd 0.102, 45 pairs), vs 0.373 between OZiva and other brands' creatives (400 pairs).",
+   "metric": "clip_mean_intra_brand_cosine",
+   "value": 0.477829,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "mean cosine to other brands' creatives",
+    "value": 0.37333253735385613
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1650105090459669",
+    "1669408884833124",
+    "1690263575996817",
+    "1781776573039288",
+    "1814901126595057",
+    "1845266559964841",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "method": "mean pairwise cosine of L2-normalised CLIP image embeddings",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {
+    "intra_sd": 0.10203323694185343,
+    "inter_sd": 0.07100099540886282,
+    "n_intra_pairs": 45,
+    "n_inter_pairs": 400
+   }
+  },
+  {
+   "observation_id": "cross_brand_pair:1",
+   "scope": "cross_brand",
+   "statement": "Cross-brand pair #1 by CLIP similarity: 1756705248927160 (Mamaearth) and 2129333221028958 (Himalaya Wellness), cosine 0.645.",
+   "metric": "clip_cosine",
+   "value": 0.644888,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "rank among all cross-brand pairs",
+    "value": 1000
+   },
+   "n": 2,
+   "supporting_ad_ids": [
+    "1756705248927160",
+    "2129333221028958"
+   ],
+   "method": "pairwise cosine of CLIP embeddings, restricted to pairs from different brands",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cross_brand_pair:2",
+   "scope": "cross_brand",
+   "statement": "Cross-brand pair #2 by CLIP similarity: 1048789364407302 (Himalaya Wellness) and 1756705248927160 (Mamaearth), cosine 0.618.",
+   "metric": "clip_cosine",
+   "value": 0.617749,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "rank among all cross-brand pairs",
+    "value": 1000
+   },
+   "n": 2,
+   "supporting_ad_ids": [
+    "1048789364407302",
+    "1756705248927160"
+   ],
+   "method": "pairwise cosine of CLIP embeddings, restricted to pairs from different brands",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cross_brand_pair:3",
+   "scope": "cross_brand",
+   "statement": "Cross-brand pair #3 by CLIP similarity: 1013415108457751 (Himalaya Wellness) and 1756705248927160 (Mamaearth), cosine 0.584.",
+   "metric": "clip_cosine",
+   "value": 0.584391,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "rank among all cross-brand pairs",
+    "value": 1000
+   },
+   "n": 2,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1756705248927160"
+   ],
+   "method": "pairwise cosine of CLIP embeddings, restricted to pairs from different brands",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cross_brand_pair:4",
+   "scope": "cross_brand",
+   "statement": "Cross-brand pair #4 by CLIP similarity: 1756705248927160 (Mamaearth) and 1858609855165049 (Himalaya Wellness), cosine 0.574.",
+   "metric": "clip_cosine",
+   "value": 0.574469,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "rank among all cross-brand pairs",
+    "value": 1000
+   },
+   "n": 2,
+   "supporting_ad_ids": [
+    "1756705248927160",
+    "1858609855165049"
+   ],
+   "method": "pairwise cosine of CLIP embeddings, restricted to pairs from different brands",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cross_brand_pair:5",
+   "scope": "cross_brand",
+   "statement": "Cross-brand pair #5 by CLIP similarity: 1367478492121558 (Himalaya Wellness) and 1756705248927160 (Mamaearth), cosine 0.570.",
+   "metric": "clip_cosine",
+   "value": 0.569852,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "rank among all cross-brand pairs",
+    "value": 1000
+   },
+   "n": 2,
+   "supporting_ad_ids": [
+    "1367478492121558",
+    "1756705248927160"
+   ],
+   "method": "pairwise cosine of CLIP embeddings, restricted to pairs from different brands",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "CLIP cosine similarity reflects visual-semantic resemblance as learned by the model, not a human judgement of style."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "mixed_cluster:2",
+   "scope": "cluster:2",
+   "statement": "Cluster 2 mixes 2 brands across 6 creatives; the largest brand (Mamaearth) accounts for 50.0% (an even split would be 50.0%).",
+   "metric": "largest_brand_share_in_cluster",
+   "value": 0.5,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "1/n_brands in cluster",
+    "value": 0.5
+   },
+   "n": 6,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1650105090459669",
+    "1781776573039288",
+    "1845266559964841"
+   ],
+   "method": "brand counts among cluster members",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=6); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "brand_counts": {
+     "Mamaearth": 3,
+     "OZiva": 3
+    }
+   }
+  },
+  {
+   "observation_id": "mixed_cluster:4",
+   "scope": "cluster:4",
+   "statement": "Cluster 4 mixes 2 brands across 10 creatives; the largest brand (Himalaya Wellness) accounts for 90.0% (an even split would be 50.0%).",
+   "metric": "largest_brand_share_in_cluster",
+   "value": 0.9,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "1/n_brands in cluster",
+    "value": 0.5
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1756705248927160",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "brand counts among cluster members",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {
+    "brand_counts": {
+     "Himalaya Wellness": 9,
+     "Mamaearth": 1
+    }
+   }
+  },
+  {
+   "observation_id": "mixed_cluster:5",
+   "scope": "cluster:5",
+   "statement": "Cluster 5 mixes 2 brands across 7 creatives; the largest brand (Mamaearth) accounts for 85.7% (an even split would be 50.0%).",
+   "metric": "largest_brand_share_in_cluster",
+   "value": 0.857143,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "1/n_brands in cluster",
+    "value": 0.5
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "method": "brand counts among cluster members",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {
+    "brand_counts": {
+     "Himalaya Wellness": 1,
+     "Mamaearth": 6
+    }
+   }
+  },
+  {
+   "observation_id": "offer_text:Himalaya Wellness",
+   "scope": "brand:Himalaya Wellness",
+   "statement": "9 of 10 Himalaya Wellness creatives (90.0%) show price/offer wording in the image itself (OCR), vs 52.0% across the dataset.",
+   "metric": "offer_text_share",
+   "value": 0.9,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "regex for ₹/Rs/%/offer/discount/MRP/coupon/price/off/sale/deal on ocr_text",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "offer_text_ad_ids": [
+     "1013415108457751",
+     "1048789364407302",
+     "1367478492121558",
+     "1598307748623554",
+     "1858609855165049",
+     "2112804086326796",
+     "2129333221028958",
+     "2215471982684457",
+     "4471603566436669"
+    ]
+   }
+  },
+  {
+   "observation_id": "offer_text:Kapiva",
+   "scope": "brand:Kapiva",
+   "statement": "2 of 10 Kapiva creatives (20.0%) show price/offer wording in the image itself (OCR), vs 52.0% across the dataset.",
+   "metric": "offer_text_share",
+   "value": 0.2,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1576111410507102",
+    "1595177445638920"
+   ],
+   "method": "regex for ₹/Rs/%/offer/discount/MRP/coupon/price/off/sale/deal on ocr_text",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "offer_text_ad_ids": [
+     "1576111410507102",
+     "1595177445638920"
+    ]
+   }
+  },
+  {
+   "observation_id": "offer_text:Mamaearth",
+   "scope": "brand:Mamaearth",
+   "statement": "2 of 10 Mamaearth creatives (20.0%) show price/offer wording in the image itself (OCR), vs 52.0% across the dataset.",
+   "metric": "offer_text_share",
+   "value": 0.2,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1585644086536653"
+   ],
+   "method": "regex for ₹/Rs/%/offer/discount/MRP/coupon/price/off/sale/deal on ocr_text",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "offer_text_ad_ids": [
+     "1024439270557511",
+     "1585644086536653"
+    ]
+   }
+  },
+  {
+   "observation_id": "offer_text:MuscleBlaze",
+   "scope": "brand:MuscleBlaze",
+   "statement": "8 of 10 MuscleBlaze creatives (80.0%) show price/offer wording in the image itself (OCR), vs 52.0% across the dataset.",
+   "metric": "offer_text_share",
+   "value": 0.8,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "regex for ₹/Rs/%/offer/discount/MRP/coupon/price/off/sale/deal on ocr_text",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "offer_text_ad_ids": [
+     "1021005457107800",
+     "1302729857652675",
+     "1308070633511851",
+     "1616514576500822",
+     "1618366923229535",
+     "3842344959313280",
+     "4699175186980657",
+     "629623256117440"
+    ]
+   }
+  },
+  {
+   "observation_id": "offer_text:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "5 of 10 OZiva creatives (50.0%) show price/offer wording in the image itself (OCR), vs 52.0% across the dataset.",
+   "metric": "offer_text_share",
+   "value": 0.5,
+   "value_format": "pct",
+   "comparison": {
+    "baseline": "dataset share",
+    "value": 0.52
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1650105090459669",
+    "1690263575996817",
+    "1781776573039288",
+    "1845266559964841",
+    "4554714978140543"
+   ],
+   "method": "regex for ₹/Rs/%/offer/discount/MRP/coupon/price/off/sale/deal on ocr_text",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "offer_text_ad_ids": [
+     "1650105090459669",
+     "1690263575996817",
+     "1781776573039288",
+     "1845266559964841",
+     "4554714978140543"
+    ]
+   }
+  },
+  {
+   "observation_id": "partnership:OZiva",
+   "scope": "brand:OZiva",
+   "statement": "1 of 10 OZiva creatives (10.0%) were run as partnership ads (creator page \"with\" the brand).",
+   "metric": "partnership_share",
+   "value": 0.1,
+   "value_format": "pct",
+   "comparison": null,
+   "n": 10,
+   "supporting_ad_ids": [
+    "4554714978140543"
+   ],
+   "method": "advertiser_type == partnership or advertiser contains ' with '",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "low_ocr_readability:dataset",
+   "scope": "dataset",
+   "statement": "0 of 50 creatives with detected text (0.0%) had fewer than 50.0% of text regions transcribed; this is consistent with non-Latin script (e.g. Devanagari) or stylised lettering.",
+   "metric": "low_ocr_readability_share",
+   "value": 0.0,
+   "value_format": "pct",
+   "comparison": null,
+   "n": 50,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1021005457107800",
+    "1024439270557511",
+    "1048789364407302",
+    "1074001845351229",
+    "1096187009418131",
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1161164159320391",
+    "1166813642586560",
+    "1297573992514723",
+    "1302729857652675",
+    "1308070633511851",
+    "1367478492121558",
+    "1416324700465227",
+    "1515373939961480",
+    "1521879793036986",
+    "1575470834177468",
+    "1576111410507102",
+    "1585644086536653",
+    "1595177445638920",
+    "1598307748623554",
+    "1616514576500822",
+    "1618366923229535",
+    "1650105090459669",
+    "1669408884833124",
+    "1690263575996817",
+    "1756705248927160",
+    "1781776573039288",
+    "1807178123387779",
+    "1814901126595057",
+    "1845266559964841",
+    "1858609855165049",
+    "1905612623466926",
+    "2112804086326796",
+    "2129333221028958",
+    "2174897743309961",
+    "2215471982684457",
+    "2430800034011084",
+    "27068411412827135",
+    "3256740111180462",
+    "3842344959313280",
+    "3941084412853569",
+    "4471603566436669",
+    "4554714978140543",
+    "4699175186980657",
+    "629623256117440",
+    "950705238104018",
+    "962201073595416"
+   ],
+   "method": "share of records with ocr_n_readable_regions / ocr_n_text_regions < threshold",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "OCR reads Latin script and digits; Devanagari text and the ₹ glyph are often not transcribed, so text-based counts are lower bounds."
+   ],
+   "status": "ok",
+   "details": {
+    "low_readability_ad_ids": []
+   }
+  },
+  {
+   "observation_id": "format_mix:dataset",
+   "scope": "dataset",
+   "statement": "0 of 50 creatives (0.0%) are video posters; the rest are static images.",
+   "metric": "video_poster_share",
+   "value": 0.0,
+   "value_format": "pct",
+   "comparison": null,
+   "n": 50,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1021005457107800",
+    "1024439270557511",
+    "1048789364407302",
+    "1074001845351229",
+    "1096187009418131",
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1161164159320391",
+    "1166813642586560",
+    "1297573992514723",
+    "1302729857652675",
+    "1308070633511851",
+    "1367478492121558",
+    "1416324700465227",
+    "1515373939961480",
+    "1521879793036986",
+    "1575470834177468",
+    "1576111410507102",
+    "1585644086536653",
+    "1595177445638920",
+    "1598307748623554",
+    "1616514576500822",
+    "1618366923229535",
+    "1650105090459669",
+    "1669408884833124",
+    "1690263575996817",
+    "1756705248927160",
+    "1781776573039288",
+    "1807178123387779",
+    "1814901126595057",
+    "1845266559964841",
+    "1858609855165049",
+    "1905612623466926",
+    "2112804086326796",
+    "2129333221028958",
+    "2174897743309961",
+    "2215471982684457",
+    "2430800034011084",
+    "27068411412827135",
+    "3256740111180462",
+    "3842344959313280",
+    "3941084412853569",
+    "4471603566436669",
+    "4554714978140543",
+    "4699175186980657",
+    "629623256117440",
+    "950705238104018",
+    "962201073595416"
+   ],
+   "method": "share of image_type == video_thumbnail",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:0:colour_green",
+   "scope": "cluster:0",
+   "statement": "Cluster 0 (7 creatives) has mean colour_green of 0.255 vs 0.093 across the dataset (z = +1.05).",
+   "metric": "cluster_mean_colour_green",
+   "value": 0.2553,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.093,
+    "z": 1.049
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:0:colourfulness",
+   "scope": "cluster:0",
+   "statement": "Cluster 0 (7 creatives) has mean colourfulness of 60.904 vs 44.985 across the dataset (z = +0.89).",
+   "metric": "cluster_mean_colourfulness",
+   "value": 60.9043,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 44.9848,
+    "z": 0.89
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:0:colour_dark_grey",
+   "scope": "cluster:0",
+   "statement": "Cluster 0 (7 creatives) has mean colour_dark_grey of 0.089 vs 0.251 across the dataset (z = -0.76).",
+   "metric": "cluster_mean_colour_dark_grey",
+   "value": 0.0887,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.251,
+    "z": -0.762
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1074001845351229",
+    "1096187009418131",
+    "1669408884833124",
+    "1690263575996817",
+    "1814901126595057",
+    "3256740111180462",
+    "4554714978140543"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:1:sharpness",
+   "scope": "cluster:1",
+   "statement": "Cluster 1 (5 creatives) has mean sharpness of 2102.792 vs 895.945 across the dataset (z = +1.76).",
+   "metric": "cluster_mean_sharpness",
+   "value": 2102.792,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 895.9446,
+    "z": 1.759
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:1:contrast",
+   "scope": "cluster:1",
+   "statement": "Cluster 1 (5 creatives) has mean contrast of 0.281 vs 0.231 across the dataset (z = +0.78).",
+   "metric": "cluster_mean_contrast",
+   "value": 0.281,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.2308,
+    "z": 0.782
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:1:colour_dark_grey",
+   "scope": "cluster:1",
+   "statement": "Cluster 1 (5 creatives) has mean colour_dark_grey of 0.410 vs 0.251 across the dataset (z = +0.75).",
+   "metric": "cluster_mean_colour_dark_grey",
+   "value": 0.4102,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.251,
+    "z": 0.747
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1515373939961480",
+    "1521879793036986",
+    "1576111410507102",
+    "1595177445638920",
+    "950705238104018"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:2:colour_orange_yellow",
+   "scope": "cluster:2",
+   "statement": "Cluster 2 (6 creatives) has mean colour_orange_yellow of 0.477 vs 0.147 across the dataset (z = +1.90).",
+   "metric": "cluster_mean_colour_orange_yellow",
+   "value": 0.4767,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.1474,
+    "z": 1.9
+   },
+   "n": 6,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1650105090459669",
+    "1781776573039288",
+    "1845266559964841"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=6); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:2:text_density",
+   "scope": "cluster:2",
+   "statement": "Cluster 2 (6 creatives) has mean text_density of 0.201 vs 0.126 across the dataset (z = +1.51).",
+   "metric": "cluster_mean_text_density",
+   "value": 0.2014,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.1259,
+    "z": 1.506
+   },
+   "n": 6,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1650105090459669",
+    "1781776573039288",
+    "1845266559964841"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=6); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:2:colour_red_pink",
+   "scope": "cluster:2",
+   "statement": "Cluster 2 (6 creatives) has mean colour_red_pink of 0.100 vs 0.030 across the dataset (z = +1.37).",
+   "metric": "cluster_mean_colour_red_pink",
+   "value": 0.0998,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.0305,
+    "z": 1.366
+   },
+   "n": 6,
+   "supporting_ad_ids": [
+    "1024439270557511",
+    "1166813642586560",
+    "1585644086536653",
+    "1650105090459669",
+    "1781776573039288",
+    "1845266559964841"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=6); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:3:aspect_ratio",
+   "scope": "cluster:3",
+   "statement": "Cluster 3 (5 creatives) has mean aspect_ratio of 0.650 vs 0.918 across the dataset (z = -0.88).",
+   "metric": "cluster_mean_aspect_ratio",
+   "value": 0.6503,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.9184,
+    "z": -0.883
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:3:sharpness",
+   "scope": "cluster:3",
+   "statement": "Cluster 3 (5 creatives) has mean sharpness of 295.836 vs 895.945 across the dataset (z = -0.88).",
+   "metric": "cluster_mean_sharpness",
+   "value": 295.836,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 895.9446,
+    "z": -0.875
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:3:colour_white",
+   "scope": "cluster:3",
+   "statement": "Cluster 3 (5 creatives) has mean colour_white of 0.670 vs 0.431 across the dataset (z = +0.77).",
+   "metric": "cluster_mean_colour_white",
+   "value": 0.6697,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.4306,
+    "z": 0.77
+   },
+   "n": 5,
+   "supporting_ad_ids": [
+    "1161164159320391",
+    "1905612623466926",
+    "2174897743309961",
+    "2430800034011084",
+    "3941084412853569"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=5); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:4:colourfulness",
+   "scope": "cluster:4",
+   "statement": "Cluster 4 (10 creatives) has mean colourfulness of 58.791 vs 44.985 across the dataset (z = +0.77).",
+   "metric": "cluster_mean_colourfulness",
+   "value": 58.791,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 44.9848,
+    "z": 0.772
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1756705248927160",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:4:colour_green",
+   "scope": "cluster:4",
+   "statement": "Cluster 4 (10 creatives) has mean colour_green of 0.208 vs 0.093 across the dataset (z = +0.74).",
+   "metric": "cluster_mean_colour_green",
+   "value": 0.2076,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.093,
+    "z": 0.741
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1756705248927160",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:4:colour_white",
+   "scope": "cluster:4",
+   "statement": "Cluster 4 (10 creatives) has mean colour_white of 0.235 vs 0.431 across the dataset (z = -0.63).",
+   "metric": "cluster_mean_colour_white",
+   "value": 0.2347,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.4306,
+    "z": -0.631
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1013415108457751",
+    "1048789364407302",
+    "1367478492121558",
+    "1598307748623554",
+    "1756705248927160",
+    "1858609855165049",
+    "2112804086326796",
+    "2129333221028958",
+    "2215471982684457",
+    "4471603566436669"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:5:text_density",
+   "scope": "cluster:5",
+   "statement": "Cluster 5 (7 creatives) has mean text_density of 0.059 vs 0.126 across the dataset (z = -1.33).",
+   "metric": "cluster_mean_text_density",
+   "value": 0.059,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.1259,
+    "z": -1.333
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:5:colour_white",
+   "scope": "cluster:5",
+   "statement": "Cluster 5 (7 creatives) has mean colour_white of 0.839 vs 0.431 across the dataset (z = +1.31).",
+   "metric": "cluster_mean_colour_white",
+   "value": 0.8388,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.4306,
+    "z": 1.314
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:5:brightness",
+   "scope": "cluster:5",
+   "statement": "Cluster 5 (7 creatives) has mean brightness of 0.922 vs 0.695 across the dataset (z = +1.16).",
+   "metric": "cluster_mean_brightness",
+   "value": 0.9224,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.6954,
+    "z": 1.163
+   },
+   "n": 7,
+   "supporting_ad_ids": [
+    "1101328145809077",
+    "1127350820190817",
+    "1127418319612582",
+    "1297573992514723",
+    "1416324700465227",
+    "1575470834177468",
+    "962201073595416"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/).",
+    "Small sample (n=7); treat as descriptive of this dataset, not of the brand's overall advertising."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:6:colour_dark_grey",
+   "scope": "cluster:6",
+   "statement": "Cluster 6 (10 creatives) has mean colour_dark_grey of 0.491 vs 0.251 across the dataset (z = +1.13).",
+   "metric": "cluster_mean_colour_dark_grey",
+   "value": 0.4909,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.251,
+    "z": 1.126
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:6:brightness",
+   "scope": "cluster:6",
+   "statement": "Cluster 6 (10 creatives) has mean brightness of 0.527 vs 0.695 across the dataset (z = -0.86).",
+   "metric": "cluster_mean_brightness",
+   "value": 0.527,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.6954,
+    "z": -0.863
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {}
+  },
+  {
+   "observation_id": "cluster_feature:6:colour_blue_cyan",
+   "scope": "cluster:6",
+   "statement": "Cluster 6 (10 creatives) has mean colour_blue_cyan of 0.098 vs 0.046 across the dataset (z = +0.56).",
+   "metric": "cluster_mean_colour_blue_cyan",
+   "value": 0.0976,
+   "value_format": "num",
+   "comparison": {
+    "baseline": "dataset mean",
+    "value": 0.0463,
+    "z": 0.559
+   },
+   "n": 10,
+   "supporting_ad_ids": [
+    "1021005457107800",
+    "1302729857652675",
+    "1308070633511851",
+    "1616514576500822",
+    "1618366923229535",
+    "1807178123387779",
+    "27068411412827135",
+    "3842344959313280",
+    "4699175186980657",
+    "629623256117440"
+   ],
+   "method": "cluster mean minus dataset mean, divided by dataset sd; top features by |z|",
+   "caveats": [
+    "Describes creative appearance only; it says nothing about ad delivery, audience response or outcomes.",
+    "Cluster membership depends on the chosen algorithm and parameters (see data/outputs/clustering/)."
+   ],
+   "status": "ok",
+   "details": {}
+  }
+ ]
+}
